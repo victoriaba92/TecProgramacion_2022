@@ -1,0 +1,16 @@
+int main(){
+    pid_t pid_devuelto =0;
+    printf("soy %d\n",getpid());
+    pid_devuelto = fork();
+     if (pid_devuelto!=0){
+        // waitpid(pid_devuelto);
+         printf("soy  el padre %d, cree a (%d),\n",getpid(),pid_devuelto);
+        sleep(1);
+     }
+     else{
+        printf("soy  el hijo %d,y dormire 4 s. ,\n",getpid());
+        sleep(4);
+         printf("soy el hijo ,  terminare..|n");
+     }
+     return 0;
+}   
