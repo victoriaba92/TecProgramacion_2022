@@ -144,23 +144,41 @@ namespace UI_CapaPresentacion
             {
                 CapaEntidades.Perfil perfil = negocio.GetPerfilByUsername(usuario.Username);
 
-                if (perfil.Descripcion == "ADMIN")
+                if (perfil.Descripcion == "ADMINISTRADOR")
                 {
                     FrmAdmin formularioDeAdministrador = new FrmAdmin();
                     this.Hide();
 
                     formularioDeAdministrador.ShowDialog();
                 }
-                else 
+                if (perfil.Descripcion == "CLIENTE")
                 {
-                    FrmAdmin formularioDelVendedor = new FrmVendedor();
+                    FrmCliente formularioDeCliente = new FrmCliente();
                     this.Hide();
 
-                    formularioDelVendedor.ShowDialog();
+                    formularioDeCliente.ShowDialog();
                 }
+                if (perfil.Descripcion == "VENDEDOR")
+                {
+                    FrmVendedor formularioDeVendedor= new FrmVendedor();
+                    this.Hide();
+
+                    formularioDeVendedor.ShowDialog();
+                }
+                if (perfil.Descripcion == "STOCK")
+                {
+                    FrmStock formularioDeVendedor = new FrmStock();
+                    this.Hide();
+
+                    formularioDeVendedor.ShowDialog();
+                }
+                //else
+                //{
+                //    MessageBox.Show("...");
+                //}
 
 
-                MessageBox.Show("El usuario y clave son validos");
+                //MessageBox.Show("El usuario y clave son validos");
             }
             else 
             {

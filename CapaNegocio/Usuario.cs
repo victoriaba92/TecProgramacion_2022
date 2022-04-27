@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 
 
+
 namespace BLL_CapaNegocio
 {
     public class Usuario
     {
         public bool validarcredencialesdeusuario(CapaEntidades.Usuario usuario)
         {
-            DAL_CapaDato.Usuario dal = new CapaEntidades.Usuario();
+            DAL_CapaDato.Usuario dal = new DAL_CapaDato.Usuario();
 
             bool retorno = false;
             foreach (CapaEntidades.Usuario user in dal.Listar())
@@ -27,8 +28,20 @@ namespace BLL_CapaNegocio
         {
             DAL_CapaDato.Usuario dal = new DAL_CapaDato.Usuario();
 
-            return dal.Listar().Where(x => x.username == username).FirstOrDefault().Perfil;  
-        }
-    }
+            return dal.Listar().Where(x => x.Username == username).FirstOrDefault().Perfil;
 
+            //CapaEntidades.Perfil perfilUsuario = new CapaEntidades.Perfil();
+
+            //foreach (CapaEntidades.Usuario user in dal.Listar())
+            //{
+            //    if (user.Username == username)
+            //    {
+            //        perfilUsuario = user.Perfil;
+
+            //    }
+            //}
+            //return perfilUsuario;
+        }
+
+    }
 }

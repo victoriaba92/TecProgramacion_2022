@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace UI_CapaPresentacion
 {
-    public partial class FrmAdmin : Form
+    public partial class FrmCliente : Form
     {
-        public FrmAdmin()
+        public FrmCliente()
         {
             InitializeComponent();
         }
 
-        private void FrmAdmin_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }

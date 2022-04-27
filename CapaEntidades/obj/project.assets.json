@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vicky\\.nuget\\packages\\": {}
+    "C:\\Users\\fpiri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
+      "projectUniqueName": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
       "projectName": "CapaEntidades",
-      "projectPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
-      "packagesPath": "C:\\Users\\vicky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaEntidades\\obj\\",
+      "projectPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
+      "packagesPath": "C:\\Users\\fpiri\\.nuget\\packages\\",
+      "outputPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vicky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fpiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace UI_CapaPresentacion
 {
-    public partial class FrmAdmin : Form
+    public partial class FrmStock : Form
     {
-        public FrmAdmin()
+        public FrmStock()
         {
             InitializeComponent();
         }
 
-        private void FrmAdmin_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -27,7 +32,7 @@ namespace UI_CapaPresentacion
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
             FrmIniciarsesion patallaPrincipal = new FrmIniciarsesion();
             this.Hide();

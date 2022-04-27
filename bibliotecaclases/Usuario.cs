@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using CapaEntidades;
 
-namespace CapaDatos
+namespace DAL_CapaDato
 {
     public class Usuario
     {
@@ -33,13 +33,21 @@ namespace CapaDatos
             vendedor1.Password = "vendedor1";
             CapaEntidades.Perfil perfilVendedor = new CapaEntidades.Perfil();
 
-            perfilCliente.Descripcion = "VENDEDOR";
+            perfilVendedor.Descripcion = "VENDEDOR";
             vendedor1.Perfil = perfilVendedor;
 
+            CapaEntidades.Usuario stock1 = new CapaEntidades.Usuario();
+            stock1.Username = "stock1";
+            stock1.Password = "stock1";
+            CapaEntidades.Perfil perfilStock = new CapaEntidades.Perfil();
+
+            perfilStock.Descripcion = "STOCK";
+            stock1.Perfil = perfilStock;
 
             retorno.Add(cliente1);
             retorno.Add(administrador1);
             retorno.Add(vendedor1);
+            retorno.Add(stock1);
 
             return retorno;
         }

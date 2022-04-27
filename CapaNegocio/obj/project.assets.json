@@ -46,19 +46,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vicky\\.nuget\\packages\\": {}
+    "C:\\Users\\fpiri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj",
+      "projectUniqueName": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj",
       "projectName": "BLL_CapaNegocio",
-      "projectPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj",
-      "packagesPath": "C:\\Users\\vicky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaNegocio\\obj\\",
+      "projectPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj",
+      "packagesPath": "C:\\Users\\fpiri\\.nuget\\packages\\",
+      "outputPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaNegocio\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vicky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fpiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -72,11 +77,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\bibliotecaclases\\DAL_CapaDato.csproj": {
-              "projectPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\bibliotecaclases\\DAL_CapaDato.csproj"
+            "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\bibliotecaclases\\DAL_CapaDato.csproj": {
+              "projectPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\bibliotecaclases\\DAL_CapaDato.csproj"
             },
-            "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj"
+            "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         }
@@ -105,7 +110,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

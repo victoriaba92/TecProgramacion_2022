@@ -65,19 +65,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vicky\\.nuget\\packages\\": {}
+    "C:\\Users\\fpiri\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
+      "projectUniqueName": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
       "projectName": "UI_CapaPresentacion",
-      "projectPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
-      "packagesPath": "C:\\Users\\vicky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\UI_CapaPresentacion\\obj\\",
+      "projectPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
+      "packagesPath": "C:\\Users\\fpiri\\.nuget\\packages\\",
+      "outputPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\UI_CapaPresentacion\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vicky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fpiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -91,11 +96,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj"
+            "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj"
             },
-            "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj": {
-              "projectPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj"
+            "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj": {
+              "projectPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj"
             }
           }
         }
@@ -127,7 +132,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

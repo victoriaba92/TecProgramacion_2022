@@ -11,11 +11,14 @@ namespace BLL_CapaNegocio
         private string _nombre;
         private int _dni;
         private int _codpostal;
-        private int _fechanacimiento;
-        public Cliente(string nombre)
+        private DateTime _fechanacimiento;
+        public Cliente(string nombre, int dni, int codpostal, DateTime fechanacimiento)
         {
             this.Nombre = nombre;
-       
+            this.Dni = dni;
+            this.Codpostal = codpostal;
+            this.Fechanacimiento = fechanacimiento;
+
         }
 
 
@@ -39,7 +42,7 @@ namespace BLL_CapaNegocio
             set { _codpostal = value; }
         }
 
-        public int Fechanacimiento
+        public DateTime Fechanacimiento
         {
             get { return _fechanacimiento; }
             set { Fechanacimiento = value; }
