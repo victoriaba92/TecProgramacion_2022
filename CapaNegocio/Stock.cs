@@ -8,5 +8,13 @@ namespace BLL_CapaNegocio
 {
     internal class Stock
     {
+        private int _cantidad;
+
+        public int Cantidad
+        {
+            get { return _cantidad; }
+            set { Cantidad = value; }
+        }
+
     }
 }

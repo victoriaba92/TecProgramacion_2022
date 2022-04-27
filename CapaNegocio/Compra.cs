@@ -6,7 +6,23 @@ using System.Threading.Tasks;
 
 namespace BLL_CapaNegocio
 {
-    internal class Compra
+    public class Compra
     {
+        private string _descripcion;
+        private int _cantidad;
+
+        public string Descripcion
+        {
+            get { return _descripcion; }
+            set { Descripcion = value; }
+        }
+
+        public int Cantidad
+        {
+            get { return _cantidad; }
+            set { Cantidad = value; }
+        }
+
+
     }
 }

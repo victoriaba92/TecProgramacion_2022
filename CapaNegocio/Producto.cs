@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace BLL_CapaNegocio
 {
-    internal class Producto
+    public class Producto
     {
+        private double _precio;
+
+        private string _prodDescripcion;
+
+        public double Precio
+        {
+            get { return _precio; }
+            set { Precio = value; }
+        }
+
+        public string ProdDescripcion
+        {
+            get { return _prodDescripcion; }
+            set { ProdDescripcion = value; }
+        }
     }
 }

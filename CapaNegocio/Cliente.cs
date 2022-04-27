@@ -11,6 +11,7 @@ namespace BLL_CapaNegocio
         private string _nombre;
         private int _dni;
         private int _codpostal;
+        private int _fechanacimiento;
         public Cliente(string nombre)
         {
             this.Nombre = nombre;
@@ -37,8 +38,6 @@ namespace BLL_CapaNegocio
             get { return _codpostal; }
             set { _codpostal = value; }
         }
-
-        private int  _fechanacimiento;
 
         public int Fechanacimiento
         {

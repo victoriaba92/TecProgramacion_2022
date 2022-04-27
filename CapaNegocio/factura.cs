@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace BLL_CapaNegocio
 {
-    internal class factura
+    public class factura
     {
+        private string _factDescripcion;
+
+        public string FactDescripcion
+        {
+            get { return _factDescripcion; }
+            set { FactDescripcion = value; }
+        }
     }
 }

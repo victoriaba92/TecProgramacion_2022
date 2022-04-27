@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "UI_CapaPresentacion/1.0.0": {
+        "dependencies": {
+          "BLL_CapaNegocio": "1.0.0",
+          "CapaEntidades": "1.0.0"
+        },
+        "runtime": {
+          "UI_CapaPresentacion.dll": {}
+        }
+      },
+      "BLL_CapaNegocio/1.0.0": {
+        "dependencies": {
+          "CapaEntidades": "1.0.0",
+          "DAL_CapaDato": "1.0.0"
+        },
+        "runtime": {
+          "BLL_CapaNegocio.dll": {}
+        }
+      },
+      "CapaEntidades/1.0.0": {
+        "runtime": {
+          "CapaEntidades.dll": {}
+        }
+      },
+      "DAL_CapaDato/1.0.0": {
+        "dependencies": {
+          "CapaEntidades": "1.0.0"
+        },
+        "runtime": {
+          "DAL_CapaDato.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UI_CapaPresentacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BLL_CapaNegocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CapaEntidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL_CapaDato/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
