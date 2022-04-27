@@ -1,50 +1,26 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "BLL_CapaNegocio/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/BLL_CapaNegocio.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BLL_CapaNegocio.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "BLL_CapaNegocio/1.0.0": {
-      "type": "project",
-      "path": "../CapaNegocio/BLL_CapaNegocio.csproj",
-      "msbuildProject": "../CapaNegocio/BLL_CapaNegocio.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "BLL_CapaNegocio >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\diego\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\vicky\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\CapaEntidades\\CapaEntidades.csproj",
+      "projectUniqueName": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
       "projectName": "CapaEntidades",
-      "projectPath": "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\CapaEntidades\\CapaEntidades.csproj",
-      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\CapaEntidades\\obj\\",
+      "projectPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
+      "packagesPath": "C:\\Users\\vicky\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\CapaEntidades\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\vicky\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -57,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\CapaNegocio\\BLL_CapaNegocio.csproj": {
-              "projectPath": "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\CapaNegocio\\BLL_CapaNegocio.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -88,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
