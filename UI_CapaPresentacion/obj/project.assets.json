@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "BLL_CapaNegocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BLL_CapaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL_CapaNegocio.dll": {}
+        }
+      },
+      "CapaEntidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BLL_CapaNegocio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaEntidades.dll": {}
+        }
+      },
+      "DAL_CapaDato/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CapaEntidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL_CapaDato.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL_CapaDato.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BLL_CapaNegocio/1.0.0": {
+      "type": "project",
+      "path": "../CapaNegocio/BLL_CapaNegocio.csproj",
+      "msbuildProject": "../CapaNegocio/BLL_CapaNegocio.csproj"
+    },
+    "CapaEntidades/1.0.0": {
+      "type": "project",
+      "path": "../CapaEntidades/CapaEntidades.csproj",
+      "msbuildProject": "../CapaEntidades/CapaEntidades.csproj"
+    },
+    "DAL_CapaDato/1.0.0": {
+      "type": "project",
+      "path": "../bibliotecaclases/DAL_CapaDato.csproj",
+      "msbuildProject": "../bibliotecaclases/DAL_CapaDato.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "BLL_CapaNegocio >= 1.0.0",
+      "CapaEntidades >= 1.0.0",
+      "DAL_CapaDato >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\diego\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
+      "projectName": "UI_CapaPresentacion",
+      "projectPath": "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
+      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\UI_CapaPresentacion\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\bibliotecaclases\\DAL_CapaDato.csproj": {
+              "projectPath": "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\bibliotecaclases\\DAL_CapaDato.csproj"
+            },
+            "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\CapaEntidades\\CapaEntidades.csproj"
+            },
+            "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\CapaNegocio\\BLL_CapaNegocio.csproj": {
+              "projectPath": "C:\\Users\\diego\\source\\repos\\Tp_Tecnicas\\CapaNegocio\\BLL_CapaNegocio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

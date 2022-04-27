@@ -1,0 +1,7 @@
+C:\Users\diego\source\repos\Tp_Tecnicas\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\diego\source\repos\Tp_Tecnicas\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.Form1.resources
+C:\Users\diego\source\repos\Tp_Tecnicas\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\diego\source\repos\Tp_Tecnicas\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\source\repos\Tp_Tecnicas\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.AssemblyInfoInputs.cache
+C:\Users\diego\source\repos\Tp_Tecnicas\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.AssemblyInfo.cs
+C:\Users\diego\source\repos\Tp_Tecnicas\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.csproj.CoreCompileInputs.cache
