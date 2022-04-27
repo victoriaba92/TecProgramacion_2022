@@ -44,10 +44,19 @@ namespace DAL_CapaDato
             perfilStock.Descripcion = "STOCK";
             stock1.Perfil = perfilStock;
 
+            CapaEntidades.Usuario gerente1 = new CapaEntidades.Usuario();
+            gerente1.Username = "gerente1";
+            gerente1.Password = "gerente1";
+            CapaEntidades.Perfil perfGerente = new CapaEntidades.Perfil();
+
+            perfGerente.Descripcion = "GERENTE";
+            gerente1.Perfil = perfGerente;
+
             retorno.Add(cliente1);
             retorno.Add(administrador1);
             retorno.Add(vendedor1);
             retorno.Add(stock1);
+            retorno.Add(gerente1);
 
             return retorno;
         }

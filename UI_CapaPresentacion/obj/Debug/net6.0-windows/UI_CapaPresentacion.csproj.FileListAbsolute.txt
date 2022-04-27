@@ -62,3 +62,4 @@ D:\Universidad\TP\TP\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-w
 D:\Universidad\TP\TP\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\ref\UI_CapaPresentacion.dll
 D:\Universidad\TP\TP\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmCliente.resources
 D:\Universidad\TP\TP\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmStock.resources
+D:\Universidad\TP\TP\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmGerente.resources

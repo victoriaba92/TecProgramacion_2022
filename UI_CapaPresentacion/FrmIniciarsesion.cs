@@ -167,10 +167,18 @@ namespace UI_CapaPresentacion
                 }
                 if (perfil.Descripcion == "STOCK")
                 {
-                    FrmStock formularioDeVendedor = new FrmStock();
+                    FrmStock formularioDeStock = new FrmStock();
                     this.Hide();
 
-                    formularioDeVendedor.ShowDialog();
+                    formularioDeStock.ShowDialog();
+                }
+
+                if (perfil.Descripcion == "GERENTE")
+                {
+                    FrmGerente formularioDeGerente = new FrmGerente();
+                    this.Hide();
+
+                    formularioDeGerente.ShowDialog();
                 }
                 //else
                 //{
