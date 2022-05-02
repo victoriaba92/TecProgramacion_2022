@@ -43,3 +43,11 @@ C:\Users\diego\OneDrive\Escritorio\tpgit\bibliotecaclases\obj\Debug\net6.0\DAL_C
 C:\Users\diego\OneDrive\Escritorio\tpgit\bibliotecaclases\obj\Debug\net6.0\refint\DAL_CapaDato.dll
 C:\Users\diego\OneDrive\Escritorio\tpgit\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.pdb
 C:\Users\diego\OneDrive\Escritorio\tpgit\bibliotecaclases\obj\Debug\net6.0\ref\DAL_CapaDato.dll
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.csproj.AssemblyReference.cache
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.AssemblyInfoInputs.cache
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.AssemblyInfo.cs
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.csproj.CoreCompileInputs.cache
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.dll
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\refint\DAL_CapaDato.dll
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.pdb

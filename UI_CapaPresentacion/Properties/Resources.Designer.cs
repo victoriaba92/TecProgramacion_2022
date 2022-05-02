@@ -79,5 +79,15 @@ namespace UI_CapaPresentacion.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2022_05_02_at_3_08_18_AM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2022-05-02 at 3.08.18 AM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

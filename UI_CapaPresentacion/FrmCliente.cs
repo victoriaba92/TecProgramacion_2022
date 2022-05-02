@@ -47,5 +47,15 @@ namespace UI_CapaPresentacion
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmCliente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

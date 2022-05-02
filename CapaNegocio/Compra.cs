@@ -14,13 +14,13 @@ namespace BLL_CapaNegocio
         public string Descripcion
         {
             get { return _descripcion; }
-            set { Descripcion = value; }
+            set { _descripcion = value; }
         }
 
         public int Cantidad
         {
             get { return _cantidad; }
-            set { Cantidad = value; }
+            set { _cantidad = value; }
         }
 
 

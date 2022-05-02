@@ -8,7 +8,7 @@ using System.Data;
 
 namespace DAL_CapaDato
 {
-
+    /*
 
 
     public abstract class Conexion
@@ -139,5 +139,5 @@ namespace DAL_CapaDato
         #endregion
 
 
-    }
+    }*/
 }

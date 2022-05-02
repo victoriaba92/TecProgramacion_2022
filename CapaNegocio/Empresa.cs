@@ -16,31 +16,31 @@ namespace BLL_CapaNegocio
         public int Razonsocial
         {
             get { return _razonsocial; }
-            set { Razonsocial = value; }
+            set { _razonsocial = value; }
         }
 
         public int Cuit
         {
             get { return _cuit; }
-            set { Cuit = value; }
+            set { _cuit = value; }
         }
 
          public string Calle
         {
             get { return _calle; }
-            set { Calle = value; }
+            set { _calle = value; }
         }
 
         public int Altura
         {
             get { return _altura; }
-            set { Altura = value; }
+            set { _altura = value; }
         }
 
         public int CodPostal
         {
             get { return _codPostal; }
-            set { CodPostal = value; }
+            set { _codPostal = value; }
         }
     }
 }

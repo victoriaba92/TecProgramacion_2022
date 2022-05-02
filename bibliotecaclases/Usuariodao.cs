@@ -9,7 +9,7 @@ using DAL_CapaDato;
 
 namespace DAL_CapaDato
 {
-    public class Usuariodao : Conexion
+    /*public class Usuariodao : Conexion
 
     {
         public bool Logueo (string usuario, String contraseña) {
@@ -23,5 +23,5 @@ namespace DAL_CapaDato
 
              }
         }
-    }   
+    }   */
 }

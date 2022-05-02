@@ -11,24 +11,23 @@ namespace BLL_CapaNegocio
         private double _precio;
 
         private string _prodDescripcion;
-        private int _idproducto
+        private int _idproducto;
         public double Precio
         {
             get { return _precio; }
-            set { Precio = value; }
+            set { _precio = value; }
         }
 
         public string ProdDescripcion
         {
             get { return _prodDescripcion; }
-            set { ProdDescripcion = value; }
+            set { _prodDescripcion = value; }
         }
-       ;
 
         public int Idproducto
         {
             get { return _idproducto; }
-            set { Idproducto = value; }
+            set { _idproducto = value; }
         }
 
     }

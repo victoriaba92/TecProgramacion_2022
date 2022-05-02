@@ -28,19 +28,19 @@ namespace BLL_CapaNegocio
             get { return _nombre; }
             set { _nombre = value; }
         }
-        private string _Apellido;
+        private string _apellido;
 
         public string Apellido
         {
-            get { return _Apellido; }
-            set { Apellido = value; }
+            get { return _apellido; }
+            set { _apellido = value; }
         }
         
 
         public string Email
         {
             get { return _email; }
-            set { Email = value; }
+            set { _email = value; }
         }
 
 
@@ -49,21 +49,21 @@ namespace BLL_CapaNegocio
         public int Dni
         {
             get { return _dni; }
-            set { Dni = value; }
+            set { _dni = value; }
         }
         private String _calle;
 
         public String Calle
         {
             get { return _calle; }
-            set { Calle = value; }
+            set { _calle = value; }
         }
         private int _altura;
 
         public int Altura
         {
             get { return _altura; }
-            set { Altura = value; }
+            set { _altura = value; }
         }
 
         private int _telefono;
@@ -71,7 +71,7 @@ namespace BLL_CapaNegocio
         public int Telefono
         {
             get { return _telefono; }
-            set { Telefono = value; }
+            set { _telefono = value; }
         }
 
 
@@ -79,13 +79,13 @@ namespace BLL_CapaNegocio
         public int Codpostal
         {
             get { return _codpostal; }
-            set { Codpostal = value; }
+            set { _codpostal = value; }
         }
 
         public DateTime Fechanacimiento
         {
             get { return _fechanacimiento; }
-            set { Fechanacimiento = value; }
+            set { _fechanacimiento = value; }
         }
 
 

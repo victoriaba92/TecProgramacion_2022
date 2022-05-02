@@ -49,3 +49,11 @@ C:\Users\diego\OneDrive\Escritorio\tpgit\CapaNegocio\obj\Debug\net6.0\BLL_CapaNe
 C:\Users\diego\OneDrive\Escritorio\tpgit\CapaNegocio\obj\Debug\net6.0\refint\BLL_CapaNegocio.dll
 C:\Users\diego\OneDrive\Escritorio\tpgit\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.pdb
 C:\Users\diego\OneDrive\Escritorio\tpgit\CapaNegocio\obj\Debug\net6.0\ref\BLL_CapaNegocio.dll
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.AssemblyInfoInputs.cache
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.AssemblyInfo.cs
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.dll
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\refint\BLL_CapaNegocio.dll
+C:\Users\vicky\Documents\TP_2022\TecProgramacion_2022\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.pdb
