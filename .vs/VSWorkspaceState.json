@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\UI_CapaPresentacion"
   ],
+  "SelectedNode": "\\UI_CapaPresentacion\\FrmGerente.cs",
   "PreviewInSolutionExplorer": false
 }

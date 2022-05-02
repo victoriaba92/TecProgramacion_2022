@@ -15,6 +15,23 @@ namespace BLL_CapaNegocio
             get { return _cantidad; }
             set { Cantidad = value; }
         }
+        private String _categoria;
+
+        public String Categoria { 
+            get { return    _categoria; }
+            set { Categoria = value; }
+        }
+        private int _idcategoria;
+
+        public int Idcategoria
+        {
+            get { return _idcategoria; }
+            set { Idcategoria = value; }
+        }
+
+
+
+
 
     }
 }

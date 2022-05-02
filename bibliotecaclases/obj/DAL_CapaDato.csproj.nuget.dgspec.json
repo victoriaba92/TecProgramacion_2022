@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\bibliotecaclases\\DAL_CapaDato.csproj": {}
+    "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\bibliotecaclases\\DAL_CapaDato.csproj": {}
   },
   "projects": {
-    "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\bibliotecaclases\\DAL_CapaDato.csproj": {
+    "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\bibliotecaclases\\DAL_CapaDato.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\bibliotecaclases\\DAL_CapaDato.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\bibliotecaclases\\DAL_CapaDato.csproj",
         "projectName": "DAL_CapaDato",
-        "projectPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\bibliotecaclases\\DAL_CapaDato.csproj",
-        "packagesPath": "C:\\Users\\fpiri\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\bibliotecaclases\\obj\\",
+        "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\bibliotecaclases\\DAL_CapaDato.csproj",
+        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\bibliotecaclases\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fpiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {
-                "projectPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj"
+              "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\CapaEntidades\\CapaEntidades.csproj": {
+                "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\CapaEntidades\\CapaEntidades.csproj"
               }
             }
           }
@@ -47,6 +47,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "DiagramAttribute_Kydred": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,20 +76,20 @@
         }
       }
     },
-    "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {
+    "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\CapaEntidades\\CapaEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\CapaEntidades\\CapaEntidades.csproj",
         "projectName": "CapaEntidades",
-        "projectPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
-        "packagesPath": "C:\\Users\\fpiri\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad\\TP\\TP\\TecProgramacion_2022\\CapaEntidades\\obj\\",
+        "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\CapaEntidades\\CapaEntidades.csproj",
+        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit\\CapaEntidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fpiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,6 +115,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "DiagramAttribute_Kydred": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -14,7 +14,7 @@ namespace BLL_CapaNegocio
         private string _calle;
         private int _domAltura;
         private string _puesto;
-
+        private int _legajo;
         public string Nombre
         {
             get { return _nombre; }
@@ -50,5 +50,13 @@ namespace BLL_CapaNegocio
             get { return _puesto; }
             set { Puesto = value; }
         }
+       
+
+        public int Legajo
+        {
+            get { return _legajo; }
+            set { _legajo = value; }
+        }
+
     }
 }

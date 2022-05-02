@@ -15,5 +15,17 @@ namespace BLL_CapaNegocio
             get { return _factDescripcion; }
             set { FactDescripcion = value; }
         }
+
+        
+
+        private int _nrofactura;
+
+        public int Nrofactura
+        {
+            get { return _nrofactura; }
+            set { _nrofactura = value; }
+        }
+
+
     }
 }

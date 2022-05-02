@@ -30,17 +30,6 @@ namespace BLL_CapaNegocio
 
             return dal.Listar().Where(x => x.Username == username).FirstOrDefault().Perfil;
 
-            //CapaEntidades.Perfil perfilUsuario = new CapaEntidades.Perfil();
-
-            //foreach (CapaEntidades.Usuario user in dal.Listar())
-            //{
-            //    if (user.Username == username)
-            //    {
-            //        perfilUsuario = user.Perfil;
-
-            //    }
-            //}
-            //return perfilUsuario;
         }
 
     }

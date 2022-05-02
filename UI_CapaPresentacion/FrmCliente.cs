@@ -34,5 +34,18 @@ namespace UI_CapaPresentacion
 
             patallaPrincipal.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {/*
+            button4 pantallaperfilcliente = new button4();
+            this.Hide(pantallaperfilcliente);
+            pantallaperfilcliente.show();
+            */
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }

@@ -35,9 +35,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(391, 225);
+            this.button2.Location = new System.Drawing.Point(878, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 40);
+            this.button2.Size = new System.Drawing.Size(65, 38);
             this.button2.TabIndex = 8;
             this.button2.Text = "Cerrar Sesion";
             this.button2.UseVisualStyleBackColor = true;
@@ -49,19 +49,20 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(51, 96);
+            this.button4.Location = new System.Drawing.Point(11, 11);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(444, 91);
+            this.button4.Size = new System.Drawing.Size(145, 39);
             this.button4.TabIndex = 7;
             this.button4.Text = "Perfil Cliente";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(472, 234);
+            this.button3.Location = new System.Drawing.Point(1003, 12);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(75, 37);
             this.button3.TabIndex = 9;
             this.button3.Text = "Salir";
             this.button3.UseVisualStyleBackColor = true;
@@ -72,7 +73,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(560, 270);
+            this.ClientSize = new System.Drawing.Size(1370, 547);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button4);
@@ -87,5 +88,7 @@
         private Button button2;
         private Button button4;
         private Button button3;
+        private ComboBox comboBox1;
+        private ListBox listBox1;
     }
 }
