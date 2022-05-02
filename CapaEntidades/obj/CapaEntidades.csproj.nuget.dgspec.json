@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {}
+    "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {
+    "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
         "projectName": "CapaEntidades",
-        "projectPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
-        "packagesPath": "C:\\Users\\vicky\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vicky\\Documents\\TP_2022\\TecProgramacion_2022\\TecProgramacion_2022\\CapaEntidades\\obj\\",
+        "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
+        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaEntidades\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vicky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

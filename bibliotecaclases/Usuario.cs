@@ -28,21 +28,14 @@ namespace DAL_CapaDato
             perfilAdmin.Descripcion = "ADMINISTRADOR";
             administrador1.Perfil = perfilAdmin;
 
-            CapaEntidades.Usuario vendedor1 = new CapaEntidades.Usuario();
-            vendedor1.Username = "vendedor1";
-            vendedor1.Password = "vendedor1";
-            CapaEntidades.Perfil perfilVendedor = new CapaEntidades.Perfil();
+            CapaEntidades.Usuario encargadoinventario = new CapaEntidades.Usuario();
+            encargadoinventario.Username = "encargado1";
+            encargadoinventario.Password = "encargado1";
 
-            perfilVendedor.Descripcion = "VENDEDOR";
-            vendedor1.Perfil = perfilVendedor;
+            CapaEntidades.Perfil perfilencargado = new CapaEntidades.Perfil();
 
-            CapaEntidades.Usuario stock1 = new CapaEntidades.Usuario();
-            stock1.Username = "stock1";
-            stock1.Password = "stock1";
-            CapaEntidades.Perfil perfilStock = new CapaEntidades.Perfil();
-
-            perfilStock.Descripcion = "STOCK";
-            stock1.Perfil = perfilStock;
+            perfilencargado.Descripcion = "ENCARGADO";
+            encargadoinventario.Perfil = perfilencargado;
 
             CapaEntidades.Usuario gerente1 = new CapaEntidades.Usuario();
             gerente1.Username = "gerente1";
@@ -54,8 +47,7 @@ namespace DAL_CapaDato
 
             retorno.Add(cliente1);
             retorno.Add(administrador1);
-            retorno.Add(vendedor1);
-            retorno.Add(stock1);
+            retorno.Add(encargadoinventario);
             retorno.Add(gerente1);
 
             return retorno;

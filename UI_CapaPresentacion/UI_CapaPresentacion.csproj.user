@@ -4,7 +4,13 @@
     <Compile Update="FrmAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Frmagregarusuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frmencargadoinventario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmGerente.cs">
@@ -13,7 +19,13 @@
     <Compile Update="FrmIniciarsesion.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Frmmodificarusuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frminhabilitarusuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmVendedor.cs">

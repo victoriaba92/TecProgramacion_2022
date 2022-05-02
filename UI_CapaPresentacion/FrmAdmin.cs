@@ -34,5 +34,33 @@ namespace UI_CapaPresentacion
 
             patallaPrincipal.Show();
         }
+
+        private void btncrearusuario_Click(object sender, EventArgs e)
+        {
+            Frmagregarusuario agregarusuario = new Frmagregarusuario();
+            this.Hide();
+            agregarusuario.Show();
+        }
+
+        private void btnmodificarusuario_Click(object sender, EventArgs e)
+        {
+            Frmmodificarusuario modificarusuario = new Frmmodificarusuario();
+            this.Hide();
+            modificarusuario.Show();
+        }
+
+        private void btninhabilitarusuario_Click(object sender, EventArgs e)
+        {
+            Frminhabilitarusuario inhabilita = new Frminhabilitarusuario();
+            this.Hide();
+            inhabilita.Show();
+        }
+
+        private void btnvolver_Click(object sender, EventArgs e)
+        {
+            FrmIniciarsesion volver = new FrmIniciarsesion();
+            this.Hide();
+            volver.Show();
+        }
     }
 }
