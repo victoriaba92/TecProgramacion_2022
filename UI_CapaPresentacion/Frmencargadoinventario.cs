@@ -23,5 +23,12 @@ namespace UI_CapaPresentacion
             this.Hide();
             volver.Show();  
         }
+
+        private void btnregistra_Click(object sender, EventArgs e)
+        {
+            FrmStock frmStock = new FrmStock();
+            this.Hide();
+            frmStock.Show();
+        }
     }
 }

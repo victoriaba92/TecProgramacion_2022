@@ -8,21 +8,23 @@ namespace CapaEntidades
 {
     public class Usuario
     {
-        private string _username;
+        private string _nombreusuario;
 
-        public string Username
+        public string Nombreusuario
         {
-            get { return _username; }
-            set { _username = value; }  
+            get { return _nombreusuario; }
+            set { _nombreusuario = value; }  
         }
 
-        private string _pass;
+        private string _contraseña;
 
-        public string Password
+        public string Contraseña
         {
-            get { return _pass; }
-            set { _pass = value; }
+            get { return _contraseña; }
+            set { _contraseña = value; }
         }
+
+    }
 
         private Perfil perfil;
 

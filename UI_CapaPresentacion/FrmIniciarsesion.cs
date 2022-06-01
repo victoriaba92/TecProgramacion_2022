@@ -1,3 +1,7 @@
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
 namespace UI_CapaPresentacion
 {
     public partial class FrmIniciarsesion : Form
@@ -88,6 +92,7 @@ namespace UI_CapaPresentacion
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(244, 23);
             this.txtUsername.TabIndex = 4;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // txtPass
             // 
@@ -110,8 +115,8 @@ namespace UI_CapaPresentacion
             // 
             // FrmIniciarsesion
             // 
-            this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(778, 366);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(773, 356);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUsername);
@@ -128,6 +133,65 @@ namespace UI_CapaPresentacion
 
         }
 
+        //SqlConnection con  = new SqlConnection(@"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=TP_TecnicasProg;Data Source=DESKTOP-PLLIS6T\SQLEXPRESS01");
+        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-0R0DL9B\SQLEXPRESS;Initial Catalog=TP_TecnicasProg;Integrated Security=True");
+
+        public void logear(string usuario, string contrasena)
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("SELECT Tipo_usuario FROM Usuarios WHERE Usuario = @usuario AND Password = @pass", con);
+                cmd.Parameters.AddWithValue("usuario", usuario);
+                cmd.Parameters.AddWithValue("pass", contrasena);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+
+                if(dt.Rows.Count == 1)
+                {
+                    this.Hide();
+                    if(dt.Rows[0][0].ToString() == "Admin")
+                    {
+                        /*FrmAdmin formularioDeAdministrador = new FrmAdmin();
+                        this.Hide();*/
+
+                        FrmAdmin frmAdmin = new FrmAdmin();
+                        //this.Hide();
+                        frmAdmin.Show();
+
+                       //new FrmAdmin().ShowDialog();
+                    }
+                    else if (dt.Rows[0][0].ToString() == "Cliente")
+                    {
+                        FrmCliente cliente = new FrmCliente();
+                        cliente.Show();
+                    }
+                    else if (dt.Rows[0][0].ToString() == "Gerente")
+                    {
+                        new FrmGerente().Show();
+                    }
+                    else if (dt.Rows[0][0].ToString() == "logistica")
+                    {
+                        Frmencargadoinventario frmencargadoinventario = new Frmencargadoinventario();
+                        frmencargadoinventario.Show();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Usuairio y/o Contraseña Incorrecta");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
         private void labusuario_Click(object sender, EventArgs e)
         {
 
@@ -135,6 +199,9 @@ namespace UI_CapaPresentacion
 
         private void btniniciar_Click(object sender, EventArgs e)
         {
+            logear(this.txtUsername.Text, this.txtUsername.Text);
+
+            /*
             CapaEntidades.Usuario usuario = new CapaEntidades.Usuario();
             BLL_CapaNegocio.Usuario negocio = new BLL_CapaNegocio.Usuario();
 
@@ -203,8 +270,9 @@ namespace UI_CapaPresentacion
             else 
             {
                 MessageBox.Show("El usuario y clave son invalidos!...");
-            }
+            } */
         }
+            
 
         private void txtPass_TextChanged(object sender, EventArgs e)
         {
@@ -213,7 +281,7 @@ namespace UI_CapaPresentacion
 
         private void btncancelar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void Iniciarsesion_Load(object sender, EventArgs e)
@@ -222,6 +290,11 @@ namespace UI_CapaPresentacion
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
         {
 
         }

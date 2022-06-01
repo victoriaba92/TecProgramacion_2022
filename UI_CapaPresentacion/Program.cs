@@ -1,3 +1,7 @@
+using System.Data.SqlClient;
+using DAL_CapaDato;
+
+
 namespace UI_CapaPresentacion
 {
     internal static class Program

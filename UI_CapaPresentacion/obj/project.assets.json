@@ -548,11 +548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
       "projectName": "UI_CapaPresentacion",
-      "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
+      "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\UI_CapaPresentacion\\obj\\",
+      "outputPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\UI_CapaPresentacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -573,11 +573,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\CapaEntidades\\CapaEntidades.csproj"
             },
-            "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj": {
-              "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj"
+            "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\CapaNegocio\\BLL_CapaNegocio.csproj": {
+              "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\CapaNegocio\\BLL_CapaNegocio.csproj"
             }
           }
         }

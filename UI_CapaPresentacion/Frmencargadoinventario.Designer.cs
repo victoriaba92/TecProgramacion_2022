@@ -82,6 +82,7 @@
             this.btnregistra.TabIndex = 4;
             this.btnregistra.Text = "Registrar Mercaderia";
             this.btnregistra.UseVisualStyleBackColor = true;
+            this.btnregistra.Click += new System.EventHandler(this.btnregistra_Click);
             // 
             // btnconfigurar
             // 

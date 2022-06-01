@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YJ7o3/QfsGsIwNcf57y//5sjH8PMbl/BIKa7BOdyXyD66QQNmLI1Me4hMFvRrzRgAVFRfoxMxvoUFamnCLRjFQ==",
+  "dgSpecHash": "Cat+vd5OdCgevbYGZ4XiZJKeAMeYQMPZexCK4v86nK/1fNboaqdmVWB4Sns9/pMW7Xr8sRRQOaleSJs0BVPjWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
+  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\UI_CapaPresentacion\\UI_CapaPresentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\diagramattribute_kydred\\1.0.0\\diagramattribute_kydred.1.0.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

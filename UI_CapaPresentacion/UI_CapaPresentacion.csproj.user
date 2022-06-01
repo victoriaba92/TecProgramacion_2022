@@ -28,8 +28,5 @@
     <Compile Update="Frminhabilitarusuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmVendedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

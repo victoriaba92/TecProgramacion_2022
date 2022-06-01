@@ -486,11 +486,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\CapaEntidades\\CapaEntidades.csproj",
       "projectName": "CapaEntidades",
-      "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaEntidades\\CapaEntidades.csproj",
+      "projectPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\CapaEntidades\\CapaEntidades.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaEntidades\\obj\\",
+      "outputPath": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\CapaEntidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
