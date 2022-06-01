@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace CapaEntidades
 {
-    public  class Perfil
+    public class Detalle_Orden_Compra
     {
+        private int _cantidad;
+
+        public int Cantidad
+        {
+            get { return _cantidad; }
+            set { _cantidad = value; }
+        }
+
         private string _descripcion;
 
         public string Descripcion

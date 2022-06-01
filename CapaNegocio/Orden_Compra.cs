@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL_CapaNegocio
 {
-    public class Stock
+    internal class Orden_Compra
     {
     }
 }

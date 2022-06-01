@@ -4,18 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL_CapaNegocio
+namespace CapaEntidades
 {
-    public class Compra
+    public  class Stock
     {
-        private string _descripcion;
         private int _cantidad;
-
-        public string Descripcion
-        {
-            get { return _descripcion; }
-            set { _descripcion = value; }
-        }
 
         public int Cantidad
         {
@@ -23,6 +16,14 @@ namespace BLL_CapaNegocio
             set { _cantidad = value; }
         }
 
+
+        private string _categoria;
+
+        public string Categoria
+        {
+            get { return _categoria; }
+            set { _categoria = value; }
+        }
 
     }
 }

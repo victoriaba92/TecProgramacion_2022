@@ -26,13 +26,4 @@ namespace CapaEntidades
 
     }
 
-        private Perfil perfil;
-
-        public Perfil Perfil
-        {
-            get { return perfil; }
-            set { perfil = value; }
-        }
-
-    }
 }

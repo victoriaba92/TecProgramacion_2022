@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL_CapaNegocio
+namespace CapaEntidades
 {
-    public class Stock
+    public class EncargadoLogistica: Usuario
     {
+
+
     }
 }
