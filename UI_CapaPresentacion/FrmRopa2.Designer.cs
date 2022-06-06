@@ -63,6 +63,7 @@ namespace UI_CapaPresentacion
             this.btnAnterior.TabIndex = 128;
             this.btnAnterior.Text = "Anterior";
             this.btnAnterior.UseVisualStyleBackColor = false;
+            this.btnAnterior.Click += new System.EventHandler(this.btnAnterior_Click);
             // 
             // btnSiguiente
             // 

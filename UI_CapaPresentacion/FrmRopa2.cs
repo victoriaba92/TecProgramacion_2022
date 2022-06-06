@@ -19,7 +19,16 @@ namespace UI_CapaPresentacion
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
+            FrmRopa3 ropa3 = new FrmRopa3();
+            this.Hide();
+            ropa3.Show();
+        }
 
+        private void btnAnterior_Click(object sender, EventArgs e)
+        {
+            FrmRopa ropa1 = new FrmRopa();
+            this.Hide();
+            ropa1.Show();
         }
     }
 }

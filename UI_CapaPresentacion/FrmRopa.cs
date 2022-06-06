@@ -21,5 +21,19 @@ namespace UI_CapaPresentacion
         {
 
         }
+
+        private void btnAnterior_Click(object sender, EventArgs e)
+        {
+            FrmCliente cliente = new FrmCliente();
+            this.Hide();
+            cliente.Show();
+        }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            FrmRopa2 ropa2 = new FrmRopa2();
+            this.Hide();
+            ropa2.Show();
+        }
     }
 }
