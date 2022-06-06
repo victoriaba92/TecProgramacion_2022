@@ -21,5 +21,26 @@ namespace UI_CapaPresentacion
         {
 
         }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            FrmCuidadoP2 cuidadoP2 = new FrmCuidadoP2();
+            this.Hide();
+            cuidadoP2.Show();
+        }
+
+        private void btnAnterior_Click(object sender, EventArgs e)
+        {
+            FrmCliente cliente = new FrmCliente();
+            this.Hide();
+            cliente.Show();
+        }
+
+        private void btnSiguiente_Click_1(object sender, EventArgs e)
+        {
+            FrmCuidadoP2 cuidadoP2 = new FrmCuidadoP2();
+            this.Hide();
+            cuidadoP2.Show();
+        }
     }
 }

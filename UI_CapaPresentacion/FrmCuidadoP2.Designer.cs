@@ -44,6 +44,7 @@ namespace UI_CapaPresentacion
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.btnAnterior = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -189,12 +190,25 @@ namespace UI_CapaPresentacion
             // 
             this.btnAnterior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnAnterior.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAnterior.Location = new System.Drawing.Point(443, 577);
+            this.btnAnterior.Location = new System.Drawing.Point(428, 585);
             this.btnAnterior.Name = "btnAnterior";
             this.btnAnterior.Size = new System.Drawing.Size(96, 37);
             this.btnAnterior.TabIndex = 68;
             this.btnAnterior.Text = "Anterior";
             this.btnAnterior.UseVisualStyleBackColor = false;
+            this.btnAnterior.Click += new System.EventHandler(this.btnAnterior_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(751, 568);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(142, 54);
+            this.button1.TabIndex = 100;
+            this.button1.Text = "Pantalla Principal";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmCuidadoP2
             // 
@@ -202,6 +216,7 @@ namespace UI_CapaPresentacion
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(945, 626);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAnterior);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -245,5 +260,6 @@ namespace UI_CapaPresentacion
         private PictureBox pictureBox1;
         private Label label9;
         private Button btnAnterior;
+        private Button button1;
     }
 }
