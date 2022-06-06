@@ -14,6 +14,7 @@ namespace UI_CapaPresentacion
         private PictureBox pictureBox1;
         private Label label2;
         private Button button1;
+        private Button button2;
         private Label label1;
 
         public FrmIniciarsesion()
@@ -33,6 +34,7 @@ namespace UI_CapaPresentacion
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,10 +145,21 @@ namespace UI_CapaPresentacion
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(331, 251);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // FrmIniciarsesion
             // 
             this.BackColor = System.Drawing.Color.DarkTurquoise;
             this.ClientSize = new System.Drawing.Size(773, 356);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
@@ -166,63 +179,63 @@ namespace UI_CapaPresentacion
         }
 
         //SqlConnection con  = new SqlConnection(@"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=TP_TecnicasProg;Data Source=DESKTOP-PLLIS6T\SQLEXPRESS01");
-        SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-0R0DL9B\SQLEXPRESS;Initial Catalog=TP_TecnicasProg;Integrated Security=True");
+        //SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-0R0DL9B\SQLEXPRESS;Initial Catalog=TP_TecnicasProg;Integrated Security=True");
+        
+        //public void logear(string usuario, string contrasena)
+        //{
+        //    try
+        //    {
+        //        con.Open();
+        //        SqlCommand cmd = new SqlCommand("SELECT Tipo_usuario FROM Usuarios WHERE Usuario = @usuario AND Password = @pass", con);
+        //        cmd.Parameters.AddWithValue("usuario", usuario);
+        //        cmd.Parameters.AddWithValue("pass", contrasena);
+        //        SqlDataAdapter sda = new SqlDataAdapter(cmd);
+        //        DataTable dt = new DataTable();
+        //        sda.Fill(dt);
 
-        public void logear(string usuario, string contrasena)
-        {
-            try
-            {
-                con.Open();
-                SqlCommand cmd = new SqlCommand("SELECT Tipo_usuario FROM Usuarios WHERE Usuario = @usuario AND Password = @pass", con);
-                cmd.Parameters.AddWithValue("usuario", usuario);
-                cmd.Parameters.AddWithValue("pass", contrasena);
-                SqlDataAdapter sda = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                sda.Fill(dt);
+        //        if(dt.Rows.Count == 1)
+        //        {
+        //            this.Hide();
+        //            if(dt.Rows[0][0].ToString() == "Admin")
+        //            {
+        //                /*FrmAdmin formularioDeAdministrador = new FrmAdmin();
+        //                this.Hide();*/
 
-                if(dt.Rows.Count == 1)
-                {
-                    this.Hide();
-                    if(dt.Rows[0][0].ToString() == "Admin")
-                    {
-                        /*FrmAdmin formularioDeAdministrador = new FrmAdmin();
-                        this.Hide();*/
+        //                FrmAdmin frmAdmin = new FrmAdmin();
+        //                //this.Hide();
+        //                frmAdmin.Show();
 
-                        FrmAdmin frmAdmin = new FrmAdmin();
-                        //this.Hide();
-                        frmAdmin.Show();
-
-                       //new FrmAdmin().ShowDialog();
-                    }
-                    else if (dt.Rows[0][0].ToString() == "Cliente")
-                    {
-                        FrmCliente cliente = new FrmCliente();
-                        cliente.Show();
-                    }
-                    else if (dt.Rows[0][0].ToString() == "Gerente")
-                    {
-                        new FrmGerente().Show();
-                    }
-                    else if (dt.Rows[0][0].ToString() == "logistica")
-                    {
-                        Frmencargadoinventario frmencargadoinventario = new Frmencargadoinventario();
-                        frmencargadoinventario.Show();
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Usuairio y/o Contraseña Incorrecta");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-            }
-        }
+        //               //new FrmAdmin().ShowDialog();
+        //            }
+        //            else if (dt.Rows[0][0].ToString() == "Cliente")
+        //            {
+        //                FrmCliente cliente = new FrmCliente();
+        //                cliente.Show();
+        //            }
+        //            else if (dt.Rows[0][0].ToString() == "Gerente")
+        //            {
+        //                new FrmGerente().Show();
+        //            }
+        //            else if (dt.Rows[0][0].ToString() == "logistica")
+        //            {
+        //                Frmencargadoinventario frmencargadoinventario = new Frmencargadoinventario();
+        //                frmencargadoinventario.Show();
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Usuairio y/o Contraseña Incorrecta");
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message);
+        //    }
+        //    finally
+        //    {
+        //        con.Close();
+        //    }
+        //}
 
         private void labusuario_Click(object sender, EventArgs e)
         {
@@ -231,7 +244,7 @@ namespace UI_CapaPresentacion
 
         private void btniniciar_Click(object sender, EventArgs e)
         {
-            logear(this.txtUsername.Text, this.txtUsername.Text);
+            //logear(this.txtUsername.Text, this.txtUsername.Text);
 
             /*
             CapaEntidades.Usuario usuario = new CapaEntidades.Usuario();
@@ -351,6 +364,13 @@ namespace UI_CapaPresentacion
             FrmRegistrar registrar = new FrmRegistrar();
             this.Hide();
             registrar.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmCliente cliente = new FrmCliente();
+            this.Hide();
+            cliente.Show();
         }
     }
 }

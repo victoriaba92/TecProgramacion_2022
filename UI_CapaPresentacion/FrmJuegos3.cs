@@ -16,5 +16,19 @@ namespace UI_CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void btnAnterior_Click(object sender, EventArgs e)
+        {
+            FrmJuegos2 juegos2 = new FrmJuegos2();
+            this.Hide();
+            juegos2.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmCliente cliente = new FrmCliente();
+            this.Hide();
+            cliente.Show();
+        }
     }
 }

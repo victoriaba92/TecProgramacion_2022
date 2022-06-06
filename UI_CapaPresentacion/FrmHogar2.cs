@@ -16,5 +16,19 @@ namespace UI_CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            FrmHogar3 hogar3 = new FrmHogar3();
+            this.Hide();
+            hogar3.Show();
+        }
+
+        private void btnAnterior_Click(object sender, EventArgs e)
+        {
+            FrmHogar hogar1 = new FrmHogar();
+            this.Hide();
+            hogar1.Show();
+        }
     }
 }

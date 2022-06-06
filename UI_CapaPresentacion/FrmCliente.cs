@@ -24,7 +24,7 @@ namespace UI_CapaPresentacion
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -68,6 +68,46 @@ namespace UI_CapaPresentacion
             FrmHogar hogar = new FrmHogar();
             this.Hide();
             hogar.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            FrmJuegos juegos = new FrmJuegos();
+            this.Hide();
+            juegos.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            FrmRopa ropa = new FrmRopa();
+            this.Hide();
+            ropa.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            FrmMascotas mascotas = new FrmMascotas();
+            this.Hide();
+            mascotas.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            FrmPapeleria papeleria = new FrmPapeleria();
+            this.Hide();
+            papeleria.Show();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            FrmCuidadoP cuidadoPersonal = new FrmCuidadoP();
+            this.Hide();
+            cuidadoPersonal.Show();
         }
     }
 }

@@ -79,12 +79,21 @@ namespace UI_CapaPresentacion
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-
+            FrmJuegos3 juegos3 = new FrmJuegos3();
+            this.Hide();
+            juegos3.Show();
         }
 
         private void label9_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAnterior_Click(object sender, EventArgs e)
+        {
+            FrmJuegos juegos = new FrmJuegos();
+            this.Hide();
+            juegos.Show();
         }
     }
 }

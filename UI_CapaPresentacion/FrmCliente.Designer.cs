@@ -137,6 +137,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(323, 179);
             this.pictureBox3.TabIndex = 16;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label4
             // 
@@ -157,6 +158,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(282, 274);
             this.pictureBox4.TabIndex = 18;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label5
             // 
@@ -177,6 +179,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(363, 189);
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // label6
             // 
@@ -188,6 +191,7 @@
             this.label6.Size = new System.Drawing.Size(181, 30);
             this.label6.TabIndex = 21;
             this.label6.Text = "Cuidado personal";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // pictureBox6
             // 
@@ -197,6 +201,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(323, 312);
             this.pictureBox6.TabIndex = 22;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox7
             // 
@@ -206,6 +211,7 @@
             this.pictureBox7.Size = new System.Drawing.Size(282, 217);
             this.pictureBox7.TabIndex = 24;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // label7
             // 

@@ -65,6 +65,7 @@ namespace UI_CapaPresentacion
             this.btnSiguiente.TabIndex = 39;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = false;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // label8
             // 
@@ -227,6 +228,7 @@ namespace UI_CapaPresentacion
             this.btnAnterior.TabIndex = 41;
             this.btnAnterior.Text = "Anterior";
             this.btnAnterior.UseVisualStyleBackColor = false;
+            this.btnAnterior.Click += new System.EventHandler(this.btnAnterior_Click);
             // 
             // FrmHogar2
             // 
