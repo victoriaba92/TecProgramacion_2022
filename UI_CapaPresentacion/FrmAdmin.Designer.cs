@@ -59,7 +59,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Indigo;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.White;
@@ -73,49 +73,57 @@
             // 
             // btncrearusuario
             // 
+            this.btncrearusuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btncrearusuario.ForeColor = System.Drawing.Color.White;
             this.btncrearusuario.Location = new System.Drawing.Point(33, 221);
             this.btncrearusuario.Name = "btncrearusuario";
             this.btncrearusuario.Size = new System.Drawing.Size(75, 57);
             this.btncrearusuario.TabIndex = 10;
             this.btncrearusuario.Text = "Crear usuario";
-            this.btncrearusuario.UseVisualStyleBackColor = true;
+            this.btncrearusuario.UseVisualStyleBackColor = false;
             this.btncrearusuario.Click += new System.EventHandler(this.btncrearusuario_Click);
             // 
             // btnmodificarusuario
             // 
-            this.btnmodificarusuario.Location = new System.Drawing.Point(168, 221);
+            this.btnmodificarusuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnmodificarusuario.ForeColor = System.Drawing.Color.White;
+            this.btnmodificarusuario.Location = new System.Drawing.Point(178, 220);
             this.btnmodificarusuario.Name = "btnmodificarusuario";
             this.btnmodificarusuario.Size = new System.Drawing.Size(75, 56);
             this.btnmodificarusuario.TabIndex = 11;
-            this.btnmodificarusuario.Text = "Modificar Usuario";
-            this.btnmodificarusuario.UseVisualStyleBackColor = true;
+            this.btnmodificarusuario.Text = "Modificar usuario";
+            this.btnmodificarusuario.UseVisualStyleBackColor = false;
             this.btnmodificarusuario.Click += new System.EventHandler(this.btnmodificarusuario_Click);
             // 
             // btninhabilitarusuario
             // 
+            this.btninhabilitarusuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btninhabilitarusuario.ForeColor = System.Drawing.Color.White;
             this.btninhabilitarusuario.Location = new System.Drawing.Point(343, 222);
             this.btninhabilitarusuario.Name = "btninhabilitarusuario";
             this.btninhabilitarusuario.Size = new System.Drawing.Size(75, 56);
             this.btninhabilitarusuario.TabIndex = 12;
-            this.btninhabilitarusuario.Text = "Inhabilitar Usuario";
-            this.btninhabilitarusuario.UseVisualStyleBackColor = true;
+            this.btninhabilitarusuario.Text = "Inhabilitar usuario";
+            this.btninhabilitarusuario.UseVisualStyleBackColor = false;
             this.btninhabilitarusuario.Click += new System.EventHandler(this.btninhabilitarusuario_Click);
             // 
             // btnvolver
             // 
+            this.btnvolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnvolver.ForeColor = System.Drawing.Color.White;
             this.btnvolver.Location = new System.Drawing.Point(502, 222);
             this.btnvolver.Name = "btnvolver";
             this.btnvolver.Size = new System.Drawing.Size(75, 54);
             this.btnvolver.TabIndex = 13;
             this.btnvolver.Text = "Volver";
-            this.btnvolver.UseVisualStyleBackColor = true;
+            this.btnvolver.UseVisualStyleBackColor = false;
             this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
             // 
             // FrmAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BackColor = System.Drawing.Color.DarkTurquoise;
             this.ClientSize = new System.Drawing.Size(656, 364);
             this.Controls.Add(this.btnvolver);
             this.Controls.Add(this.btninhabilitarusuario);

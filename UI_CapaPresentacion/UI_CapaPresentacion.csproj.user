@@ -10,16 +10,73 @@
     <Compile Update="FrmCliente.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmCuidadoP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmCuidadoP2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmCuidadoP3.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Frmencargadoinventario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmGerente.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmHogar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmHogar2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmHogar3.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmIniciarsesion.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmJuegos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmJuegos2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmJuegos3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMascotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMascotas2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMascotas3.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Frmmodificarusuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmPapeleria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmPapeleria2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmPapeleria3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmRopa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmRopa2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmRopa3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmStock.cs">

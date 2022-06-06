@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL_CapaNegocio
 {
-    internal class Cliente
+    public class Cliente
     {
     }
 }

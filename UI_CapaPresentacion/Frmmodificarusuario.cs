@@ -29,5 +29,20 @@ namespace UI_CapaPresentacion
 
             vuelve.Show();
         }
+
+        private void labmodificar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labnombre_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labpuesto_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

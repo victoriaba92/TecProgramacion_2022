@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GQuPY8QT7s/gxjLlqyz6FEdh5EpuRxXmiKw8ndP3Lm3fISrOTD2xSqjT24blFw61jlwOcY6KI2WExSLFmBNLrQ==",
+  "dgSpecHash": "M6/rxJCfYbLso5zNXjJBizE1ZwAx8RM86mRh6ZMWzf84jTmwEYXtzRznMpvNl/ozUYQigvcF5uibMtL7eQ3DeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\bibliotecaclases\\DAL_CapaDato.csproj",
+  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\bibliotecaclases\\DAL_CapaDato.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\diagramattribute_kydred\\1.0.0\\diagramattribute_kydred.1.0.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

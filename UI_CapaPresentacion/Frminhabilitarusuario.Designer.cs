@@ -38,22 +38,26 @@
             // 
             // btnvolver
             // 
-            this.btnvolver.Location = new System.Drawing.Point(387, 286);
+            this.btnvolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnvolver.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnvolver.Location = new System.Drawing.Point(135, 212);
             this.btnvolver.Name = "btnvolver";
             this.btnvolver.Size = new System.Drawing.Size(75, 23);
             this.btnvolver.TabIndex = 0;
             this.btnvolver.Text = "Volver";
-            this.btnvolver.UseVisualStyleBackColor = true;
+            this.btnvolver.UseVisualStyleBackColor = false;
             this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
             // 
             // btninhabilitar
             // 
-            this.btninhabilitar.Location = new System.Drawing.Point(192, 286);
+            this.btninhabilitar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btninhabilitar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btninhabilitar.Location = new System.Drawing.Point(334, 212);
             this.btninhabilitar.Name = "btninhabilitar";
             this.btninhabilitar.Size = new System.Drawing.Size(75, 23);
             this.btninhabilitar.TabIndex = 1;
             this.btninhabilitar.Text = "Inhabilitar";
-            this.btninhabilitar.UseVisualStyleBackColor = true;
+            this.btninhabilitar.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -65,16 +69,16 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(343, 133);
+            this.textBox1.Location = new System.Drawing.Point(279, 133);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(119, 23);
+            this.textBox1.Size = new System.Drawing.Size(183, 23);
             this.textBox1.TabIndex = 4;
             // 
             // labcodigo
             // 
             this.labcodigo.AutoSize = true;
             this.labcodigo.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labcodigo.Location = new System.Drawing.Point(73, 128);
+            this.labcodigo.Location = new System.Drawing.Point(76, 125);
             this.labcodigo.Name = "labcodigo";
             this.labcodigo.Size = new System.Drawing.Size(165, 28);
             this.labcodigo.TabIndex = 5;
@@ -83,10 +87,11 @@
             // lbtitulo
             // 
             this.lbtitulo.AutoSize = true;
-            this.lbtitulo.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbtitulo.Location = new System.Drawing.Point(152, 26);
+            this.lbtitulo.Font = new System.Drawing.Font("Segoe UI", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbtitulo.ForeColor = System.Drawing.Color.White;
+            this.lbtitulo.Location = new System.Drawing.Point(135, 35);
             this.lbtitulo.Name = "lbtitulo";
-            this.lbtitulo.Size = new System.Drawing.Size(291, 46);
+            this.lbtitulo.Size = new System.Drawing.Size(307, 45);
             this.lbtitulo.TabIndex = 6;
             this.lbtitulo.Text = "Inhabilitar Usuario";
             // 
@@ -94,8 +99,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.ClientSize = new System.Drawing.Size(572, 302);
             this.Controls.Add(this.lbtitulo);
             this.Controls.Add(this.labcodigo);
             this.Controls.Add(this.textBox1);

@@ -30,5 +30,10 @@ namespace UI_CapaPresentacion
             this.Hide();
             frmStock.Show();
         }
+
+        private void btnlistar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

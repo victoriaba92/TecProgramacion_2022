@@ -45,22 +45,26 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(570, 559);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 40);
             this.button3.TabIndex = 9;
             this.button3.Text = "Salir";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(309, 559);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 40);
             this.button2.TabIndex = 8;
-            this.button2.Text = "Cerrar Sesion";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Text = "Cerrar sesion";
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox1
@@ -75,11 +79,11 @@
             // labReporte
             // 
             this.labReporte.AutoSize = true;
-            this.labReporte.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labReporte.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labReporte.ForeColor = System.Drawing.Color.White;
-            this.labReporte.Location = new System.Drawing.Point(170, 28);
+            this.labReporte.Location = new System.Drawing.Point(207, 28);
             this.labReporte.Name = "labReporte";
-            this.labReporte.Size = new System.Drawing.Size(371, 54);
+            this.labReporte.Size = new System.Drawing.Size(395, 54);
             this.labReporte.TabIndex = 11;
             this.labReporte.Text = "REPORTE DE VENTA";
             this.labReporte.Click += new System.EventHandler(this.label1_Click);
@@ -87,10 +91,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Indigo;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(207, 109);
+            this.label1.Location = new System.Drawing.Point(248, 109);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 21);
             this.label1.TabIndex = 12;
@@ -100,10 +104,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Indigo;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(62, 109);
+            this.label2.Location = new System.Drawing.Point(86, 109);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 21);
             this.label2.TabIndex = 13;
@@ -128,29 +132,33 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(555, 150);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 23);
             this.button1.TabIndex = 18;
             this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // btnventas
             // 
+            this.btnventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnventas.ForeColor = System.Drawing.Color.White;
             this.btnventas.Location = new System.Drawing.Point(62, 559);
             this.btnventas.Name = "btnventas";
             this.btnventas.Size = new System.Drawing.Size(75, 39);
             this.btnventas.TabIndex = 19;
             this.btnventas.Text = "Ventas";
-            this.btnventas.UseVisualStyleBackColor = true;
+            this.btnventas.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Indigo;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(363, 109);
+            this.label3.Location = new System.Drawing.Point(412, 109);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(33, 21);
             this.label3.TabIndex = 20;
@@ -168,8 +176,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(850, 610);
+            this.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.ClientSize = new System.Drawing.Size(740, 610);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnventas);

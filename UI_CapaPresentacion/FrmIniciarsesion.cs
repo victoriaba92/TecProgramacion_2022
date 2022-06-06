@@ -12,6 +12,8 @@ namespace UI_CapaPresentacion
         private TextBox txtUsername;
         private TextBox txtPass;
         private PictureBox pictureBox1;
+        private Label label2;
+        private Button button1;
         private Label label1;
 
         public FrmIniciarsesion()
@@ -29,17 +31,19 @@ namespace UI_CapaPresentacion
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // labusuario
             // 
             this.labusuario.AutoSize = true;
-            this.labusuario.BackColor = System.Drawing.Color.Black;
+            this.labusuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.labusuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labusuario.ForeColor = System.Drawing.Color.White;
-            this.labusuario.Location = new System.Drawing.Point(240, 71);
+            this.labusuario.Location = new System.Drawing.Point(240, 76);
             this.labusuario.Name = "labusuario";
             this.labusuario.Size = new System.Drawing.Size(113, 26);
             this.labusuario.TabIndex = 0;
@@ -49,7 +53,7 @@ namespace UI_CapaPresentacion
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(240, 161);
@@ -61,10 +65,10 @@ namespace UI_CapaPresentacion
             // 
             // btniniciar
             // 
-            this.btniniciar.BackColor = System.Drawing.Color.Black;
+            this.btniniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btniniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btniniciar.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btniniciar.Location = new System.Drawing.Point(264, 280);
+            this.btniniciar.Location = new System.Drawing.Point(290, 280);
             this.btniniciar.Name = "btniniciar";
             this.btniniciar.Size = new System.Drawing.Size(194, 52);
             this.btniniciar.TabIndex = 2;
@@ -74,7 +78,7 @@ namespace UI_CapaPresentacion
             // 
             // btncancelar
             // 
-            this.btncancelar.BackColor = System.Drawing.Color.Black;
+            this.btncancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btncancelar.ForeColor = System.Drawing.Color.Transparent;
             this.btncancelar.Location = new System.Drawing.Point(591, 280);
@@ -87,7 +91,7 @@ namespace UI_CapaPresentacion
             // 
             // txtUsername
             // 
-            this.txtUsername.BackColor = System.Drawing.Color.Gold;
+            this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.txtUsername.Location = new System.Drawing.Point(472, 79);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(244, 23);
@@ -96,7 +100,7 @@ namespace UI_CapaPresentacion
             // 
             // txtPass
             // 
-            this.txtPass.BackColor = System.Drawing.Color.Gold;
+            this.txtPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.txtPass.Location = new System.Drawing.Point(472, 169);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(244, 23);
@@ -112,11 +116,39 @@ namespace UI_CapaPresentacion
             this.pictureBox1.Size = new System.Drawing.Size(138, 71);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label2.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Honeydew;
+            this.label2.Location = new System.Drawing.Point(12, 233);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(204, 20);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "¿Aún no tienes una cuenta?";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button1.Location = new System.Drawing.Point(29, 280);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(163, 52);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Registrate";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmIniciarsesion
             // 
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.DarkTurquoise;
             this.ClientSize = new System.Drawing.Size(773, 356);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUsername);
@@ -297,6 +329,28 @@ namespace UI_CapaPresentacion
         private void txtUsername_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Frmagregarusuario frmagregarusuario = new Frmagregarusuario();
+            this.Hide();
+            frmagregarusuario.Show();
         }
     }
 }

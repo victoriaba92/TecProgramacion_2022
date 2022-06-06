@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PTRxOgcqqMHDZLifXa5Vx8eqmc8o3s6HO9zbRaB/jWMySZD0nygX49Wl6k4nNbUzDo/Z5DPIQqPv8wANzNipnA==",
+  "dgSpecHash": "vq2Y22mCOri5DbN1cFKreAE8LH+4i7DfFjUpmoTOxKMG3Pll86QQgnehIF2RDy3LWFGdWBg4yp5QSu43wK13bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Escritorio\\ultimo\\CapaNegocio\\BLL_CapaNegocio.csproj",
+  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Escritorio\\tpgit2\\TecProgramacion_2022\\CapaNegocio\\BLL_CapaNegocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\diagramattribute_kydred\\1.0.0\\diagramattribute_kydred.1.0.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
