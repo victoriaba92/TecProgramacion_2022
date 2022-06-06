@@ -43,6 +43,12 @@ namespace UI_CapaPresentacion
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.textContraseña = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,6 +120,7 @@ namespace UI_CapaPresentacion
             // txtNombre
             // 
             this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtNombre.ForeColor = System.Drawing.Color.Black;
             this.txtNombre.Location = new System.Drawing.Point(258, 117);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(198, 23);
@@ -155,7 +162,7 @@ namespace UI_CapaPresentacion
             // 
             this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnRegistrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRegistrar.Location = new System.Drawing.Point(326, 337);
+            this.btnRegistrar.Location = new System.Drawing.Point(412, 473);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(91, 23);
             this.btnRegistrar.TabIndex = 11;
@@ -166,7 +173,7 @@ namespace UI_CapaPresentacion
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnCancelar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCancelar.Location = new System.Drawing.Point(547, 337);
+            this.btnCancelar.Location = new System.Drawing.Point(633, 473);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 12;
@@ -174,12 +181,76 @@ namespace UI_CapaPresentacion
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // txtUsuario
+            // 
+            this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtUsuario.Location = new System.Drawing.Point(258, 330);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(198, 23);
+            this.txtUsuario.TabIndex = 14;
+            // 
+            // textContraseña
+            // 
+            this.textContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.textContraseña.Location = new System.Drawing.Point(258, 378);
+            this.textContraseña.Name = "textContraseña";
+            this.textContraseña.Size = new System.Drawing.Size(198, 23);
+            this.textContraseña.TabIndex = 16;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label7.Location = new System.Drawing.Point(91, 378);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(67, 15);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Contraseña";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.textBox1.Location = new System.Drawing.Point(258, 429);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(198, 23);
+            this.textBox1.TabIndex = 18;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label8.Location = new System.Drawing.Point(91, 429);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(107, 15);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Repetir Contraseña";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(91, 330);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(110, 15);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Nombre de Usuario";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // FrmRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.ClientSize = new System.Drawing.Size(719, 411);
+            this.ClientSize = new System.Drawing.Size(788, 522);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textContraseña);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.txtEmail);
@@ -216,5 +287,11 @@ namespace UI_CapaPresentacion
         private TextBox txtEmail;
         private Button btnRegistrar;
         private Button btnCancelar;
+        private TextBox txtUsuario;
+        private TextBox textContraseña;
+        private Label label7;
+        private TextBox textBox1;
+        private Label label8;
+        private Label label6;
     }
 }

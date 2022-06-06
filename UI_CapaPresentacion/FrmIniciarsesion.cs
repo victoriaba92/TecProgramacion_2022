@@ -348,9 +348,9 @@ namespace UI_CapaPresentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Frmagregarusuario frmagregarusuario = new Frmagregarusuario();
+            FrmRegistrar registrar = new FrmRegistrar();
             this.Hide();
-            frmagregarusuario.Show();
+            registrar.Show();
         }
     }
 }

@@ -62,5 +62,12 @@ namespace UI_CapaPresentacion
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            FrmHogar hogar = new FrmHogar();
+            this.Hide();
+            hogar.Show();
+        }
     }
 }
