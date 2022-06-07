@@ -29,5 +29,10 @@ namespace UI_CapaPresentacion
 
             volver.Show();
         }
+
+        private void btncancelar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

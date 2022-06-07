@@ -151,6 +151,7 @@
             this.btnventas.TabIndex = 19;
             this.btnventas.Text = "Ventas";
             this.btnventas.UseVisualStyleBackColor = false;
+            this.btnventas.Click += new System.EventHandler(this.btnventas_Click);
             // 
             // label3
             // 

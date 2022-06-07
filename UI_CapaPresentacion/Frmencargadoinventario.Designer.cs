@@ -60,6 +60,7 @@
             this.btngenera.TabIndex = 1;
             this.btngenera.Text = "Genera Orden de Compra";
             this.btngenera.UseVisualStyleBackColor = false;
+            this.btngenera.Click += new System.EventHandler(this.btngenera_Click);
             // 
             // btnadministra
             // 
@@ -70,6 +71,7 @@
             this.btnadministra.TabIndex = 2;
             this.btnadministra.Text = "Administrar Productos";
             this.btnadministra.UseVisualStyleBackColor = false;
+            this.btnadministra.Click += new System.EventHandler(this.btnadministra_Click);
             // 
             // labtitulo
             // 

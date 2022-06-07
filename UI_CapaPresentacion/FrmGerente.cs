@@ -37,7 +37,7 @@ namespace UI_CapaPresentacion
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -61,6 +61,11 @@ namespace UI_CapaPresentacion
         }
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnventas_Click(object sender, EventArgs e)
         {
 
         }

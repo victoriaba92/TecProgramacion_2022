@@ -35,5 +35,15 @@ namespace UI_CapaPresentacion
         {
 
         }
+
+        private void btngenera_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnadministra_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
