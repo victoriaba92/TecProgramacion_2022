@@ -44,6 +44,7 @@ namespace UI_CapaPresentacion
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.btnAnterior = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -56,12 +57,13 @@ namespace UI_CapaPresentacion
             // 
             this.btnSiguiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnSiguiente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSiguiente.Location = new System.Drawing.Point(462, 583);
+            this.btnSiguiente.Location = new System.Drawing.Point(460, 595);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(110, 29);
             this.btnSiguiente.TabIndex = 142;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = false;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // label6
             // 
@@ -195,12 +197,25 @@ namespace UI_CapaPresentacion
             this.label9.TabIndex = 129;
             this.label9.Text = "Accesorios para mascotas";
             // 
+            // btnAnterior
+            // 
+            this.btnAnterior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnAnterior.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAnterior.Location = new System.Drawing.Point(91, 591);
+            this.btnAnterior.Name = "btnAnterior";
+            this.btnAnterior.Size = new System.Drawing.Size(96, 33);
+            this.btnAnterior.TabIndex = 174;
+            this.btnAnterior.Text = "Anterior";
+            this.btnAnterior.UseVisualStyleBackColor = false;
+            this.btnAnterior.Click += new System.EventHandler(this.btnAnterior_Click);
+            // 
             // FrmMascotas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(960, 636);
+            this.Controls.Add(this.btnAnterior);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -243,5 +258,6 @@ namespace UI_CapaPresentacion
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private Label label9;
+        private Button btnAnterior;
     }
 }

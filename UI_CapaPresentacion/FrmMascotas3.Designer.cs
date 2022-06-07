@@ -44,6 +44,7 @@ namespace UI_CapaPresentacion
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -56,12 +57,13 @@ namespace UI_CapaPresentacion
             // 
             this.btnAnterior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnAnterior.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAnterior.Location = new System.Drawing.Point(470, 576);
+            this.btnAnterior.Location = new System.Drawing.Point(470, 587);
             this.btnAnterior.Name = "btnAnterior";
             this.btnAnterior.Size = new System.Drawing.Size(96, 33);
             this.btnAnterior.TabIndex = 173;
             this.btnAnterior.Text = "Anterior";
             this.btnAnterior.UseVisualStyleBackColor = false;
+            this.btnAnterior.Click += new System.EventHandler(this.btnAnterior_Click);
             // 
             // label6
             // 
@@ -196,12 +198,25 @@ namespace UI_CapaPresentacion
             this.label9.TabIndex = 159;
             this.label9.Text = "Accesorios para mascotas";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(824, 566);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(142, 54);
+            this.button1.TabIndex = 174;
+            this.button1.Text = "Pantalla Principal";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmMascotas3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(989, 632);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAnterior);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -245,5 +260,6 @@ namespace UI_CapaPresentacion
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private Label label9;
+        private Button button1;
     }
 }

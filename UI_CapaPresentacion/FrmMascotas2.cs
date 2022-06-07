@@ -16,5 +16,19 @@ namespace UI_CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void btnAnterior_Click(object sender, EventArgs e)
+        {
+            FrmMascotas mascotas = new FrmMascotas();
+            this.Hide();
+            mascotas.Show();
+        }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            FrmMascotas3 mascotas3 = new FrmMascotas3();
+            this.Hide();
+            mascotas3.Show();
+        }
     }
 }
