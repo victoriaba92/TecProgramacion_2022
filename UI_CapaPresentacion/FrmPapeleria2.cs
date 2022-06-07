@@ -21,5 +21,19 @@ namespace UI_CapaPresentacion
         {
 
         }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            FrmPapeleria3 papeleria3 = new FrmPapeleria3();
+            this.Hide();
+            papeleria3.Show();
+        }
+
+        private void btnAnterior_Click(object sender, EventArgs e)
+        {
+            FrmPapeleria papeleria1 = new FrmPapeleria();
+            this.Hide();
+            papeleria1.Show();
+        }
     }
 }

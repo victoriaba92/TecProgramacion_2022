@@ -63,6 +63,7 @@ namespace UI_CapaPresentacion
             this.btnSiguiente.TabIndex = 97;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = false;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // label6
             // 
@@ -207,6 +208,7 @@ namespace UI_CapaPresentacion
             this.btnAnterior.TabIndex = 98;
             this.btnAnterior.Text = "Anterior";
             this.btnAnterior.UseVisualStyleBackColor = false;
+            this.btnAnterior.Click += new System.EventHandler(this.btnAnterior_Click);
             // 
             // FrmPapeleria2
             // 
