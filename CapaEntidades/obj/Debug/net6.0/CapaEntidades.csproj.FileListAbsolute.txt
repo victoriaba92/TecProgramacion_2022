@@ -70,3 +70,15 @@ C:\Users\diego\Downloads\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\Cap
 C:\Users\diego\Downloads\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\refint\CapaEntidades.dll
 C:\Users\diego\Downloads\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.pdb
 C:\Users\diego\Downloads\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\ref\CapaEntidades.dll
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\bin\Debug\net6.0\CapaEntidades.deps.json
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\bin\Debug\net6.0\CapaEntidades.dll
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\bin\Debug\net6.0\CapaEntidades.pdb
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.AssemblyInfoInputs.cache
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.AssemblyInfo.cs
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.dll
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\refint\CapaEntidades.dll
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.pdb
+C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\ref\CapaEntidades.dll
