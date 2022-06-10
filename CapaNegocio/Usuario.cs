@@ -3,19 +3,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Data;
+using System.Data.SqlClient;
+
 
 
 
 namespace BLL_CapaNegocio
 {
-    public class Usuario :Conexion 
+    public class Usuario 
     {
         Usuariodao usuario = new Usuariodao();
-        public bool loginusuario(string pusuario, string pcontraseña)
-        {
-            return usuario.Login(pusuario, pcontraseña);
+       // public bool loginusuario(string pusuario, string pcontraseña)
+        //{
+           // return usuario.Login2(pusuario, pcontraseña);
 
-        }
+        //}
 
 
 
