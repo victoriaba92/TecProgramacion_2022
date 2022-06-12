@@ -31,32 +31,32 @@
             this.btnvolver = new System.Windows.Forms.Button();
             this.btninhabilitar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.labcodigo = new System.Windows.Forms.Label();
-            this.lbtitulo = new System.Windows.Forms.Label();
+            this.lbltitulo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnvolver
             // 
             this.btnvolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnvolver.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnvolver.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnvolver.Location = new System.Drawing.Point(135, 212);
+            this.btnvolver.Location = new System.Drawing.Point(80, 133);
             this.btnvolver.Name = "btnvolver";
-            this.btnvolver.Size = new System.Drawing.Size(75, 23);
+            this.btnvolver.Size = new System.Drawing.Size(162, 52);
             this.btnvolver.TabIndex = 0;
-            this.btnvolver.Text = "Volver";
+            this.btnvolver.Text = "Baja Cliente";
             this.btnvolver.UseVisualStyleBackColor = false;
             this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
             // 
             // btninhabilitar
             // 
             this.btninhabilitar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btninhabilitar.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btninhabilitar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btninhabilitar.Location = new System.Drawing.Point(334, 212);
+            this.btninhabilitar.Location = new System.Drawing.Point(326, 133);
             this.btninhabilitar.Name = "btninhabilitar";
-            this.btninhabilitar.Size = new System.Drawing.Size(75, 23);
+            this.btninhabilitar.Size = new System.Drawing.Size(154, 52);
             this.btninhabilitar.TabIndex = 1;
-            this.btninhabilitar.Text = "Inhabilitar";
+            this.btninhabilitar.Text = "Baja Empleado";
             this.btninhabilitar.UseVisualStyleBackColor = false;
             // 
             // label1
@@ -67,43 +67,24 @@
             this.label1.Size = new System.Drawing.Size(0, 15);
             this.label1.TabIndex = 3;
             // 
-            // textBox1
+            // lbltitulo
             // 
-            this.textBox1.Location = new System.Drawing.Point(279, 133);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(183, 23);
-            this.textBox1.TabIndex = 4;
-            // 
-            // labcodigo
-            // 
-            this.labcodigo.AutoSize = true;
-            this.labcodigo.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labcodigo.Location = new System.Drawing.Point(76, 125);
-            this.labcodigo.Name = "labcodigo";
-            this.labcodigo.Size = new System.Drawing.Size(165, 28);
-            this.labcodigo.TabIndex = 5;
-            this.labcodigo.Text = "Id codigo usuario";
-            // 
-            // lbtitulo
-            // 
-            this.lbtitulo.AutoSize = true;
-            this.lbtitulo.Font = new System.Drawing.Font("Segoe UI", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbtitulo.ForeColor = System.Drawing.Color.White;
-            this.lbtitulo.Location = new System.Drawing.Point(135, 35);
-            this.lbtitulo.Name = "lbtitulo";
-            this.lbtitulo.Size = new System.Drawing.Size(307, 45);
-            this.lbtitulo.TabIndex = 6;
-            this.lbtitulo.Text = "Inhabilitar Usuario";
+            this.lbltitulo.AutoSize = true;
+            this.lbltitulo.Font = new System.Drawing.Font("Cambria", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbltitulo.ForeColor = System.Drawing.Color.White;
+            this.lbltitulo.Location = new System.Drawing.Point(170, 35);
+            this.lbltitulo.Name = "lbltitulo";
+            this.lbltitulo.Size = new System.Drawing.Size(236, 43);
+            this.lbltitulo.TabIndex = 6;
+            this.lbltitulo.Text = "Baja Usuario";
             // 
             // Frminhabilitarusuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.BackColor = System.Drawing.Color.CadetBlue;
             this.ClientSize = new System.Drawing.Size(572, 302);
-            this.Controls.Add(this.lbtitulo);
-            this.Controls.Add(this.labcodigo);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lbltitulo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btninhabilitar);
             this.Controls.Add(this.btnvolver);
@@ -119,8 +100,6 @@
         private Button btnvolver;
         private Button btninhabilitar;
         private Label label1;
-        private TextBox textBox1;
-        private Label labcodigo;
-        private Label lbtitulo;
+        private Label lbltitulo;
     }
 }

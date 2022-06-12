@@ -41,7 +41,7 @@ namespace UI_CapaPresentacion
             this.txtDNI = new System.Windows.Forms.TextBox();
             this.txtDomicilio = new System.Windows.Forms.TextBox();
             this.txtCP = new System.Windows.Forms.TextBox();
-            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.btnRegistrarse = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtTel = new System.Windows.Forms.TextBox();
@@ -78,7 +78,6 @@ namespace UI_CapaPresentacion
             this.label1.Size = new System.Drawing.Size(64, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Nombre";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -165,18 +164,18 @@ namespace UI_CapaPresentacion
             this.txtCP.Size = new System.Drawing.Size(198, 23);
             this.txtCP.TabIndex = 10;
             // 
-            // btnRegistrar
+            // btnRegistrarse
             // 
-            this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnRegistrar.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRegistrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRegistrar.Location = new System.Drawing.Point(256, 462);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(132, 48);
-            this.btnRegistrar.TabIndex = 11;
-            this.btnRegistrar.Text = "Registrarse";
-            this.btnRegistrar.UseVisualStyleBackColor = false;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            this.btnRegistrarse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnRegistrarse.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnRegistrarse.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRegistrarse.Location = new System.Drawing.Point(256, 462);
+            this.btnRegistrarse.Name = "btnRegistrarse";
+            this.btnRegistrarse.Size = new System.Drawing.Size(132, 48);
+            this.btnRegistrarse.TabIndex = 11;
+            this.btnRegistrarse.Text = "Registrarse";
+            this.btnRegistrarse.UseVisualStyleBackColor = false;
+            this.btnRegistrarse.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // btnCancelar
             // 
@@ -341,7 +340,7 @@ namespace UI_CapaPresentacion
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnRegistrar);
+            this.Controls.Add(this.btnRegistrarse);
             this.Controls.Add(this.txtCP);
             this.Controls.Add(this.txtDomicilio);
             this.Controls.Add(this.txtDNI);
@@ -374,7 +373,7 @@ namespace UI_CapaPresentacion
         private TextBox txtDNI;
         private TextBox txtDomicilio;
         private TextBox txtCP;
-        private Button btnRegistrar;
+        private Button btnRegistrarse;
         private Button btnCancelar;
         private TextBox txtEmail;
         private TextBox txtTel;

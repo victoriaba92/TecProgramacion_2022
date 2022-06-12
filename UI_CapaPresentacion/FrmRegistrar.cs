@@ -18,12 +18,6 @@ namespace UI_CapaPresentacion
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-      
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
@@ -37,7 +31,7 @@ namespace UI_CapaPresentacion
             bool regUsuario = false;
             bool regCliente = false;
             lblError.Visible = false;
-            if (txtContra.Text!=txtContraRep.Text)
+            if (txtContra.Text != txtContraRep.Text)
             {
                 lblError.Text = "Las contraseñas no coinciden";
                 lblError.Visible = true;
@@ -49,6 +43,7 @@ namespace UI_CapaPresentacion
                 regCliente = Usuariodao.altaCliente(txtNombre.Text, txtApellido.Text, txtDNI.Text, txtDomicilio.Text, txtCP.Text, txtEmail.Text, dtFNac.Value, txtTel.Text, txtNUsuario.Text, txtContra.Text, txtContraRep.Text);
                 if (regCliente)
                 {
+                    MessageBox.Show("Usuario creado exitosamente");
                     FrmIniciarsesion iniciar = new FrmIniciarsesion();
                     iniciar.Show();
                     this.Hide();

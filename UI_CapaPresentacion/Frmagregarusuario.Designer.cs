@@ -28,136 +28,116 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnaceptar = new System.Windows.Forms.Button();
-            this.btncancelar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.labtitutlo = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.cboxpuesto = new System.Windows.Forms.ComboBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.txtDNI = new System.Windows.Forms.TextBox();
+            this.cboxPuesto = new System.Windows.Forms.ComboBox();
             this.btnvolver = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtDomicilio = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtCuit = new System.Windows.Forms.TextBox();
+            this.txtNombreU = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtRepetirC = new System.Windows.Forms.TextBox();
+            this.btnAceptar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.lblError = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // btnaceptar
-            // 
-            this.btnaceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnaceptar.ForeColor = System.Drawing.Color.White;
-            this.btnaceptar.Location = new System.Drawing.Point(251, 324);
-            this.btnaceptar.Name = "btnaceptar";
-            this.btnaceptar.Size = new System.Drawing.Size(75, 23);
-            this.btnaceptar.TabIndex = 0;
-            this.btnaceptar.Text = "Aceptar";
-            this.btnaceptar.UseVisualStyleBackColor = false;
-            this.btnaceptar.Click += new System.EventHandler(this.btnaceptar_Click);
-            // 
-            // btncancelar
-            // 
-            this.btncancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btncancelar.ForeColor = System.Drawing.Color.White;
-            this.btncancelar.Location = new System.Drawing.Point(81, 324);
-            this.btncancelar.Name = "btncancelar";
-            this.btncancelar.Size = new System.Drawing.Size(75, 23);
-            this.btncancelar.TabIndex = 1;
-            this.btncancelar.Text = "Cancelar";
-            this.btncancelar.UseVisualStyleBackColor = false;
-            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(64, 107);
+            this.label1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(49, 74);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 25);
+            this.label1.Size = new System.Drawing.Size(67, 19);
             this.label1.TabIndex = 2;
             this.label1.Text = "Nombre";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(64, 148);
+            this.label2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(48, 106);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 25);
+            this.label2.Size = new System.Drawing.Size(71, 19);
             this.label2.TabIndex = 3;
             this.label2.Text = "Apellido";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(64, 191);
+            this.label3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(48, 138);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 25);
+            this.label3.Size = new System.Drawing.Size(37, 19);
             this.label3.TabIndex = 4;
             this.label3.Text = "DNI";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(64, 231);
+            this.label4.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(48, 167);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 25);
+            this.label4.Size = new System.Drawing.Size(80, 19);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Puesto";
+            this.label4.Text = "Domicilio";
             // 
             // labtitutlo
             // 
             this.labtitutlo.AutoSize = true;
-            this.labtitutlo.Font = new System.Drawing.Font("Segoe MDL2 Assets", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labtitutlo.Font = new System.Drawing.Font("Cambria", 33.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labtitutlo.ForeColor = System.Drawing.Color.White;
-            this.labtitutlo.Location = new System.Drawing.Point(160, 26);
+            this.labtitutlo.Location = new System.Drawing.Point(114, 7);
             this.labtitutlo.Name = "labtitutlo";
-            this.labtitutlo.Size = new System.Drawing.Size(285, 53);
+            this.labtitutlo.Size = new System.Drawing.Size(311, 53);
             this.labtitutlo.TabIndex = 6;
             this.labtitutlo.Text = "Crear Usuario";
             // 
-            // textBox1
+            // txtApellido
             // 
-            this.textBox1.Location = new System.Drawing.Point(203, 112);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(165, 23);
-            this.textBox1.TabIndex = 7;
+            this.txtApellido.Location = new System.Drawing.Point(244, 101);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(165, 23);
+            this.txtApellido.TabIndex = 8;
             // 
-            // textBox2
+            // txtDNI
             // 
-            this.textBox2.Location = new System.Drawing.Point(203, 153);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(165, 23);
-            this.textBox2.TabIndex = 8;
+            this.txtDNI.Location = new System.Drawing.Point(244, 132);
+            this.txtDNI.Name = "txtDNI";
+            this.txtDNI.Size = new System.Drawing.Size(165, 23);
+            this.txtDNI.TabIndex = 9;
             // 
-            // textBox3
+            // cboxPuesto
             // 
-            this.textBox3.Location = new System.Drawing.Point(203, 196);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(165, 23);
-            this.textBox3.TabIndex = 9;
-            // 
-            // cboxpuesto
-            // 
-            this.cboxpuesto.FormattingEnabled = true;
-            this.cboxpuesto.Items.AddRange(new object[] {
-            "gerente",
-            "encargado de inventario y logistica"});
-            this.cboxpuesto.Location = new System.Drawing.Point(203, 239);
-            this.cboxpuesto.Name = "cboxpuesto";
-            this.cboxpuesto.Size = new System.Drawing.Size(165, 23);
-            this.cboxpuesto.TabIndex = 10;
+            this.cboxPuesto.FormattingEnabled = true;
+            this.cboxPuesto.Items.AddRange(new object[] {
+            "Gerente",
+            "Administrador",
+            "Encargado de inventario y stock"});
+            this.cboxPuesto.Location = new System.Drawing.Point(244, 191);
+            this.cboxPuesto.Name = "cboxPuesto";
+            this.cboxPuesto.Size = new System.Drawing.Size(165, 23);
+            this.cboxPuesto.TabIndex = 10;
             // 
             // btnvolver
             // 
             this.btnvolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnvolver.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnvolver.ForeColor = System.Drawing.Color.White;
-            this.btnvolver.Location = new System.Drawing.Point(478, 324);
+            this.btnvolver.Location = new System.Drawing.Point(37, 372);
             this.btnvolver.Name = "btnvolver";
-            this.btnvolver.Size = new System.Drawing.Size(75, 23);
+            this.btnvolver.Size = new System.Drawing.Size(136, 45);
             this.btnvolver.TabIndex = 11;
             this.btnvolver.Text = "Volver";
             this.btnvolver.UseVisualStyleBackColor = false;
@@ -166,63 +146,191 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(64, 276);
+            this.label5.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(49, 196);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 25);
+            this.label5.Size = new System.Drawing.Size(59, 19);
             this.label5.TabIndex = 12;
-            this.label5.Text = "Domicilio";
+            this.label5.Text = "Puesto";
             // 
-            // textBox4
+            // txtDomicilio
             // 
-            this.textBox4.Location = new System.Drawing.Point(203, 278);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(165, 23);
-            this.textBox4.TabIndex = 13;
+            this.txtDomicilio.Location = new System.Drawing.Point(245, 162);
+            this.txtDomicilio.Name = "txtDomicilio";
+            this.txtDomicilio.Size = new System.Drawing.Size(165, 23);
+            this.txtDomicilio.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(50, 225);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(39, 19);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Cuit";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(48, 253);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(151, 19);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Nombre de Usuario";
+            // 
+            // txtCuit
+            // 
+            this.txtCuit.Location = new System.Drawing.Point(244, 221);
+            this.txtCuit.Name = "txtCuit";
+            this.txtCuit.Size = new System.Drawing.Size(165, 23);
+            this.txtCuit.TabIndex = 16;
+            // 
+            // txtNombreU
+            // 
+            this.txtNombreU.Location = new System.Drawing.Point(244, 250);
+            this.txtNombreU.Name = "txtNombreU";
+            this.txtNombreU.Size = new System.Drawing.Size(165, 23);
+            this.txtNombreU.TabIndex = 17;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(49, 283);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(93, 19);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Contraseña";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(50, 312);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(152, 19);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Repetir Contraseña";
+            // 
+            // txtContraseña
+            // 
+            this.txtContraseña.Location = new System.Drawing.Point(244, 281);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(165, 23);
+            this.txtContraseña.TabIndex = 20;
+            // 
+            // txtRepetirC
+            // 
+            this.txtRepetirC.Location = new System.Drawing.Point(244, 310);
+            this.txtRepetirC.Name = "txtRepetirC";
+            this.txtRepetirC.Size = new System.Drawing.Size(165, 23);
+            this.txtRepetirC.TabIndex = 21;
+            // 
+            // btnAceptar
+            // 
+            this.btnAceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnAceptar.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAceptar.ForeColor = System.Drawing.Color.White;
+            this.btnAceptar.Location = new System.Drawing.Point(244, 372);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(136, 45);
+            this.btnAceptar.TabIndex = 22;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = false;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnCancelar.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCancelar.ForeColor = System.Drawing.Color.White;
+            this.btnCancelar.Location = new System.Drawing.Point(447, 372);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(136, 45);
+            this.btnCancelar.TabIndex = 23;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // lblError
+            // 
+            this.lblError.AutoSize = true;
+            this.lblError.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblError.ForeColor = System.Drawing.Color.Red;
+            this.lblError.Location = new System.Drawing.Point(50, 345);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(48, 19);
+            this.lblError.TabIndex = 24;
+            this.lblError.Text = "Error";
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(244, 70);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(165, 23);
+            this.txtNombre.TabIndex = 25;
             // 
             // Frmagregarusuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.ClientSize = new System.Drawing.Size(609, 394);
-            this.Controls.Add(this.textBox4);
+            this.BackColor = System.Drawing.Color.CadetBlue;
+            this.ClientSize = new System.Drawing.Size(625, 429);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.lblError);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnAceptar);
+            this.Controls.Add(this.txtRepetirC);
+            this.Controls.Add(this.txtContraseña);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txtNombreU);
+            this.Controls.Add(this.txtCuit);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtDomicilio);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnvolver);
-            this.Controls.Add(this.cboxpuesto);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cboxPuesto);
+            this.Controls.Add(this.txtDNI);
+            this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.labtitutlo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btncancelar);
-            this.Controls.Add(this.btnaceptar);
             this.Name = "Frmagregarusuario";
             this.Text = "Frmagregarusuario";
-            this.TransparencyKey = System.Drawing.Color.Transparent;
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private Button btnaceptar;
-        private Button btncancelar;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label labtitutlo;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private ComboBox cboxpuesto;
+        private TextBox txtApellido;
+        private TextBox txtDNI;
+        private ComboBox cboxPuesto;
         private Button btnvolver;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox txtDomicilio;
+        private Label label6;
+        private Label label7;
+        private TextBox txtCuit;
+        private TextBox txtNombreU;
+        private Label label8;
+        private Label label9;
+        private TextBox txtContraseña;
+        private TextBox txtRepetirC;
+        private Button btnAceptar;
+        private Button btnCancelar;
+        private Label lblError;
+        private TextBox txtNombre;
     }
 }
