@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DAL_CapaDato;
 
 namespace UI_CapaPresentacion
 {
@@ -31,9 +32,37 @@ namespace UI_CapaPresentacion
             this.Hide();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void btnRegistrar_Click(object sender, EventArgs e)
         {
+            bool regUsuario = false;
+            bool regCliente = false;
+            lblError.Visible = false;
+            if (txtContra.Text!=txtContraRep.Text)
+            {
+                lblError.Text = "Las contraseñas no coinciden";
+                lblError.Visible = true;
+                return;
+            }
+            regUsuario = Usuariodao.altaUsuario(txtNUsuario.Text, txtContra.Text);
+            if (regUsuario)
+            {
+                regCliente = Usuariodao.altaCliente(txtNombre.Text, txtApellido.Text, txtDNI.Text, txtDomicilio.Text, txtCP.Text, txtEmail.Text, dtFNac.Value, txtTel.Text, txtNUsuario.Text, txtContra.Text, txtContraRep.Text);
+                if (regCliente)
+                {
+                    FrmIniciarsesion iniciar = new FrmIniciarsesion();
+                    iniciar.Show();
+                    this.Hide();
+                }
+            }
+            else
+            {
+                lblError.Text = "Nombre de usuario existente!";
+                lblError.Visible = true;
+            }
 
+            
         }
+
+
     }
 }

@@ -17,7 +17,6 @@ namespace UI_CapaPresentacion
         private Button button1;
         private Button button2;
         public Label mensajeerror;
-        private ComboBox comboBox1;
         private PictureBox pictureBox1;
         private Label label1;
 
@@ -39,7 +38,6 @@ namespace UI_CapaPresentacion
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.mensajeerror = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -166,14 +164,6 @@ namespace UI_CapaPresentacion
             this.mensajeerror.Text = "Mensaje Error";
             this.mensajeerror.Visible = false;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(524, 233);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
-            this.comboBox1.TabIndex = 11;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
@@ -188,7 +178,6 @@ namespace UI_CapaPresentacion
             this.BackColor = System.Drawing.Color.CadetBlue;
             this.ClientSize = new System.Drawing.Size(773, 356);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.mensajeerror);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
