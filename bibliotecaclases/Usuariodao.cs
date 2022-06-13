@@ -11,12 +11,17 @@ namespace DAL_CapaDato
 {
     public class Usuariodao
     {
-
+        /// <summary>
+        /// Este metodo es el encargado del login o incio de sesion de todo los usuarios.
+        /// </summary>
+        /// <param name="usuario"></param>
+        /// <param name="contraseña"></param>
+        /// <returns></returns>
         public bool Login(string usuario, string contraseña)
         {
             using (var Conectar = new SqlConnection())
             {
-                Conectar.ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcommerceUpe;Data Source=MININT-Q3PVKIF";
+                Conectar.ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcommerceUpe;Data Source=DESKTOP-PLLIS6T\SQLEXPRESS";
                 Conectar.Open();
                 using (var command = new SqlCommand())
                 {
@@ -38,12 +43,16 @@ namespace DAL_CapaDato
             }
 
         }
-
+        /// <summary>
+        /// Este metodo es el encargado de hacer la union de los usuarios con la tabla empleado, atributo puesto.
+        /// </summary>
+        /// <param name="usuario"></param>
+        /// <returns></returns>
         public string VerificarUsuario(string usuario)
         {
             using (var Conectar = new SqlConnection())
             {
-                Conectar.ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcommerceUpe;Data Source=MININT-Q3PVKIF";
+                Conectar.ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcommerceUpe;Data Source=DESKTOP-PLLIS6T\SQLEXPRESS";
                 Conectar.Open();
                 using (var command = new SqlCommand())
                 {
@@ -65,12 +74,26 @@ namespace DAL_CapaDato
             }
 
         }
-
+        /// <summary>
+        /// Este metodo es el encargado  del alta de los clientes unicamente.
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="dom"></param>
+        /// <param name="CP"></param>
+        /// <param name="email"></param>
+        /// <param name="fNac"></param>
+        /// <param name="tel"></param>
+        /// <param name="nomUsua"></param>
+        /// <param name="contra"></param>
+        /// <param name="contraRep"></param>
+        /// <returns></returns>
         public static bool altaCliente(string nombre, string apellido, string dni, string dom, string CP, string email, DateTime fNac, string tel, string nomUsua, string contra, string contraRep)
         {
             using (var Conectar = new SqlConnection())
             {
-                Conectar.ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcommerceUpe;Data Source=MININT-Q3PVKIF";
+                Conectar.ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcommerceUpe;Data Source=DESKTOP-PLLIS6T\SQLEXPRESS";
                 Conectar.Open();
                 using (var command = new SqlCommand())
                 {
@@ -102,12 +125,17 @@ namespace DAL_CapaDato
                 }
             }
         }
-
+        /// <summary>
+        /// Este metodo es el encargado de hacer el alta de los usuarios (usuairo y contraseña).
+        /// </summary>
+        /// <param name="nomUsua"></param>
+        /// <param name="contra"></param>
+        /// <returns></returns>
         public static bool altaUsuario(string nomUsua, string contra)
         {
             using (var Conectar = new SqlConnection())
             {
-                Conectar.ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcommerceUpe;Data Source=MININT-Q3PVKIF";
+                Conectar.ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcommerceUpe;Data Source=DESKTOP-PLLIS6T\SQLEXPRESS";
                 Conectar.Open();
                 using (var command = new SqlCommand())
                 {
@@ -130,11 +158,24 @@ namespace DAL_CapaDato
                 }
             }
         }
-        public static bool altaEmpleado(string nombre, string apellido, string dni, string dom, string puesto, string cuit, string nomUsua, string contra, string contraRep)
+        /// <summary>
+        /// Este metodo es el encargado de hacer la carga a la base de los usuarios empleados.
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="dom"></param>
+        /// <param name="puesto"></param>
+        /// <param name="cuit"></param>
+        /// <param name="nomUsua"></param>
+        /// <param name="contra"></param>
+        /// <param name="contraRep"></param>
+        /// <returns></returns>
+        public static bool altaEmpleado(string legajo, string nombre, string apellido, string dni, string dom, string puesto, string cuit, string nomUsua, string contra, string contraRep)
         {
             using (var Conectar = new SqlConnection())
             {
-                Conectar.ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcommerceUpe;Data Source=MININT-Q3PVKIF";
+                Conectar.ConnectionString = @"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcommerceUpe;Data Source=DESKTOP-PLLIS6T\SQLEXPRESS";
                 Conectar.Open();
                 using (var command = new SqlCommand())
                 {
@@ -142,7 +183,8 @@ namespace DAL_CapaDato
                     {
                         command.Connection = Conectar;
                         command.CommandType = CommandType.Text;
-                        command.CommandText = "insert into Empleado values(@dni,@apellido,@nombre,@puesto,@dom,@nomUsu,@cuit)";
+                        command.CommandText = "insert into Empleado values(@legajo,@dni,@apellido,@nombre,@puesto,@dom,@nomUsu,@cuit)";
+                        command.Parameters.AddWithValue("@legajo", legajo);
                         command.Parameters.AddWithValue("@nombre", nombre);
                         command.Parameters.AddWithValue("@apellido", apellido);
                         command.Parameters.AddWithValue("@dni", dni);

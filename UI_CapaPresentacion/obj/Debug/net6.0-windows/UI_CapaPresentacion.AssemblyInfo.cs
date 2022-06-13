@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("UI_CapaPresentacion")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Bazar Upe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("UI_CapaPresentacion")]
-[assembly: System.Reflection.AssemblyTitleAttribute("UI_CapaPresentacion")]
+[assembly: System.Reflection.AssemblyProductAttribute("Bazar Upe")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Bazar Upe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

@@ -82,3 +82,15 @@ C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\De
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\refint\CapaEntidades.dll
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.pdb
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\ref\CapaEntidades.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\bin\Debug\net6.0\CapaEntidades.deps.json
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\bin\Debug\net6.0\CapaEntidades.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\bin\Debug\net6.0\CapaEntidades.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.csproj.AssemblyReference.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.AssemblyInfoInputs.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.AssemblyInfo.cs
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.csproj.CoreCompileInputs.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\refint\CapaEntidades.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\CapaEntidades.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaEntidades\obj\Debug\net6.0\ref\CapaEntidades.dll

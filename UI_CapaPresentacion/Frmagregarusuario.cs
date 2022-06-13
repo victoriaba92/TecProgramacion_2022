@@ -48,7 +48,7 @@ namespace UI_CapaPresentacion
             regUsuario = Usuariodao.altaUsuario(txtNombreU.Text, txtContraseña.Text);
             if (regUsuario)
             {
-                regEmpleado = Usuariodao.altaEmpleado(txtNombre.Text, txtApellido.Text, txtDNI.Text, txtDomicilio.Text, cboxPuesto.Text, txtCuit.Text, txtNombreU.Text, txtContraseña.Text, txtRepetirC.Text);
+                regEmpleado = Usuariodao.altaEmpleado(txtLegajo.Text, txtNombre.Text, txtApellido.Text, txtDNI.Text, txtDomicilio.Text, cboxPuesto.Text, txtCuit.Text, txtNombreU.Text, txtContraseña.Text, txtRepetirC.Text);
                 if (regEmpleado)
                 {
                     MessageBox.Show("Usuario creado exitosamente");
@@ -62,6 +62,11 @@ namespace UI_CapaPresentacion
                 lblError.Text = "Nombre de usuario existente!";
                 lblError.Visible = true;
             }
+        }
+
+        private void lblError_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

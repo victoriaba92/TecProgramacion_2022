@@ -6,7 +6,13 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Bazar Upe</AssemblyName>
+    <ApplicationIcon>LOGO.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="LOGO.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="DiagramAttribute_Kydred" Version="1.0.0" />

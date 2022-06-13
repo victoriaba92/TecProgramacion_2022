@@ -108,3 +108,20 @@ C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaNegocio\obj\Debu
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\refint\BLL_CapaNegocio.dll
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.pdb
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\ref\BLL_CapaNegocio.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\bin\Debug\net6.0\BLL_CapaNegocio.deps.json
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\bin\Debug\net6.0\BLL_CapaNegocio.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\bin\Debug\net6.0\BLL_CapaNegocio.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\bin\Debug\net6.0\CapaEntidades.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\bin\Debug\net6.0\DAL_CapaDato.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\bin\Debug\net6.0\DAL_CapaDato.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\bin\Debug\net6.0\CapaEntidades.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.csproj.AssemblyReference.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.AssemblyInfoInputs.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.AssemblyInfo.cs
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.csproj.CoreCompileInputs.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.csproj.CopyComplete
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\refint\BLL_CapaNegocio.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\BLL_CapaNegocio.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\CapaNegocio\obj\Debug\net6.0\ref\BLL_CapaNegocio.dll

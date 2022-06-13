@@ -365,3 +365,71 @@ C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\UI_CapaPresentacion\
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.pdb
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.genruntimeconfig.cache
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\ref\UI_CapaPresentacion.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Bazar Upe.exe
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Bazar Upe.deps.json
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Bazar Upe.runtimeconfig.json
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Bazar Upe.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Bazar Upe.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\DiagramAtt.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\BLL_CapaNegocio.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\CapaEntidades.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\DAL_CapaDato.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\CapaEntidades.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\BLL_CapaNegocio.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\bin\Debug\net6.0-windows\DAL_CapaDato.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.csproj.AssemblyReference.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmAdmin.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.Frmagregarusuario.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmCliente.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmCuidadoP.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmCuidadoP2.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmCuidadoP3.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.Frmencargadoinventario.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmGerente.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmHogar.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmHogar2.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmHogar3.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.Frminhabilitarusuario.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmIniciarsesion.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmJuegos.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmJuegos2.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmJuegos3.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmMascotas.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmMascotas2.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmMascotas3.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.Frmmodificarusuario.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmPapeleria.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmPapeleria2.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmPapeleria3.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmRegistrar.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmRopa.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmRopa2.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmRopa3.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.FrmStock.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.Properties.Resources.resources
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.csproj.GenerateResource.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.AssemblyInfoInputs.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.AssemblyInfo.cs
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.csproj.CopyComplete
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\Bazar Upe.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\refint\Bazar Upe.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\Bazar Upe.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\UI_CapaPresentacion.genruntimeconfig.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\UI_CapaPresentacion\obj\Debug\net6.0-windows\ref\Bazar Upe.dll

@@ -96,3 +96,18 @@ C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\bibliotecaclases\obj
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\refint\DAL_CapaDato.dll
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.pdb
 C:\Users\diego\OneDrive\Escritorio\git\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\ref\DAL_CapaDato.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\bin\Debug\net6.0\DAL_CapaDato.deps.json
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\bin\Debug\net6.0\DAL_CapaDato.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\bin\Debug\net6.0\DAL_CapaDato.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\bin\Debug\net6.0\CapaEntidades.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\bin\Debug\net6.0\CapaEntidades.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.csproj.AssemblyReference.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.AssemblyInfoInputs.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.AssemblyInfo.cs
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.csproj.CoreCompileInputs.cache
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.csproj.CopyComplete
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\refint\DAL_CapaDato.dll
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\DAL_CapaDato.pdb
+D:\Universidad\TP\TP\TP Final\Presentacion\TecProgramacion_2022\bibliotecaclases\obj\Debug\net6.0\ref\DAL_CapaDato.dll
